@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-When someone in the USA accesses a website hosted in Finland like EpicReads,, their browser sends a request using HTTP/HTTPS (the web protocol that defines how pages are requested and delivered securely). This request is broken into smaller units called packets using TCP/IP, the core internet protocol suite — TCP ensures reliable delivery and correct order, while IP handles addressing. Each packet is given the website’s IP address, which uniquely identifies the server in Finland. These packets travel across the internet through packet switching, where each packet may take different routes via multiple routers and networks. Once they reach the Finnish server, the server sends response packets back the same way. The browser then reassembles these packets and displays the webpage. This entire process happens in fractions of a second, making global communication seamless.
+When someone in the USA accesses a website hosted in Finland like EpicReads, their browser sends a request using HTTP/HTTPS (the web protocol that defines how pages are requested and delivered securely). This request is broken into smaller units called packets using TCP/IP, the core internet protocol suite — TCP ensures reliable delivery and correct order, while IP handles addressing. Each packet is given the website’s IP address, which uniquely identifies the server in Finland. These packets travel across the internet through packet switching, where each packet may take different routes via multiple routers and networks. Once they reach the Finnish server, the server sends response packets back the same way. The browser then reassembles these packets and displays the webpage. This entire process happens in fractions of a second, making global communication seamless.
 
 ---
 
@@ -103,7 +103,6 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 ### Frontend
 
 HTML, CSS, JavaScript
-React, Angular
 
 ### Backend
 NodeJS, Python, Java
@@ -140,7 +139,10 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-DNS is the internet’s phonebook: it translates human-readable names (like epicreads.com) into IP addresses so browsers know where to connect. My friend should create an A record for epicreads.com (and optionally www) pointing to 52.172.142.222, because an A record maps a hostname to an IPv4 address. Note: DNS does not carry port numbers, so users must visit http://epicreads.com:3000 or run a reverse proxy on ports 80/443 that forwards to port 3000.
+1. DNS is the internet’s phonebook: it translates human-readable names (like epicreads.com) into IP addresses so browsers know where to connect. My friend should create an A record for epicreads.com (and optionally www) pointing to 52.172.142.222, because an A record maps a hostname to an IPv4 address. Note: DNS does not carry port numbers, so users must visit http://epicreads.com:3000 or run a reverse proxy on ports 80/443 that forwards to port 3000.
+2. The internet is a vast and complex system, with millions of computers and devices connected to it. 
+But how do these devices find each other? How do you know that when you type "www.cloudairy.com” into your web browser, you'll be taken to the right place?
+The Domain Name System (DNS) is the answer to these questions. DNS is a hierarchical naming system that translates human-readable domain names into machine-readable IP addresses. This allows us to use easy-to-remember names like "www.cloudairy.com” instead of having to remember long strings of numbers. 
 
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
