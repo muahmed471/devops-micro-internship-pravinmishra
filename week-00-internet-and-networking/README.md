@@ -141,8 +141,8 @@ In **50–100 words**, explain in your own words:
 
 1. DNS is the internet’s phonebook: it translates human-readable names (like epicreads.com) into IP addresses so browsers know where to connect. My friend should create an A record for epicreads.com (and optionally www) pointing to 52.172.142.222, because an A record maps a hostname to an IPv4 address. Note: DNS does not carry port numbers, so users must visit http://epicreads.com:3000 or run a reverse proxy on ports 80/443 that forwards to port 3000.
 2. The internet is a vast and complex system, with millions of computers and devices connected to it. 
-But how do these devices find each other? How do you know that when you type "www.cloudairy.com” into your web browser, you'll be taken to the right place?
-The Domain Name System (DNS) is the answer to these questions. DNS is a hierarchical naming system that translates human-readable domain names into machine-readable IP addresses. This allows us to use easy-to-remember names like "www.cloudairy.com” instead of having to remember long strings of numbers. 
+But how do these devices find each other? How do you know that when you type "www.epicreads.com” into your web browser, you'll be taken to the right place?
+The Domain Name System (DNS) is the answer to these questions. DNS is a hierarchical naming system that translates human-readable domain names into machine-readable IP addresses. This allows us to use easy-to-remember names like "www.epicreads.com” instead of having to remember long strings of numbers. 
 
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
