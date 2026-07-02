@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned how to break down a technical concepts like networking protocols into a simple, relatable language. I also practiced using real-life analogies to make complex ideas easier for beginners to understand and execute.
 
 ---
 
@@ -103,7 +103,7 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 ### Frontend
 
 HTML, CSS, JavaScript
-React / Angular / Vue
+React, Angular
 
 ### Backend
 NodeJS, Python, Java
