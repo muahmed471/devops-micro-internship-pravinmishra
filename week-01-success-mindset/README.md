@@ -187,18 +187,21 @@ Choose books that improve:
 * leadership
 
 ## Book List
-Book	Cover	Quick Summary	Why I Chose It
-Atomic Habits by James Clear	Atomic Habits	A practical guide on building good habits and breaking bad ones through small daily improvements.	To develop consistency in my daily routine and build habits that will help me grow personally and professionally over time.
-Deep Work by Cal Newport	Deep Work	Explains how focused, distraction-free work helps achieve higher productivity and better results.	To train myself to concentrate better, especially while learning technical skills and preparing for career growth.
-The Psychology of Money by Morgan Housel	The Psychology of Money	Explores how emotions and behavior influence financial decisions more than technical knowledge.	To improve my understanding of financial planning and make smarter long-term decisions about money and investments.
-Thinking, Fast and Slow by Daniel Kahneman	Thinking, Fast and Slow	Explains the two systems of human thinking and how they affect decisions and judgments.	To understand how decision-making works so I can improve my critical thinking and avoid common mistakes in everyday life.
-The 7 Habits of Highly Effective People by Stephen R. Covey	The 7 Habits of Highly Effective People	A framework for personal growth, discipline, leadership, and building long-term effectiveness.	To build stronger discipline, improve self-management, and create a mindset focused on long-term success.
-How to Win Friends and Influence People by Dale Carnegie	How to Win Friends and Influence People	Teaches communication techniques for building trust and improving relationships with others.	To become better at communicating with people, collaborating with teams, and building stronger professional relationships.
-The First 90 Days by Michael D. Watkins	The First 90 Days	A guide to successfully transitioning into new roles and adapting quickly to change.	To prepare myself for future career transitions and learn how to perform effectively whenever I step into a new role.
-The Effective Executive by Peter F. Drucker	The Effective Executive	Focuses on productivity, decision-making, leadership, and managing work effectively.	To improve how I manage my time, make better decisions, and become more effective in handling responsibilities.
-Never Split the Difference by Chris Voss	Never Split the Difference	Shares negotiation techniques based on real-world hostage negotiation experiences.	To learn better negotiation skills for professional discussions, problem-solving, and handling challenging conversations confidently.
-Can’t Hurt Me by David Goggins	Can’t Hur		
+Book	Author	Why I Plan to Read It	Category
+Atomic Habits	James Clear	Build discipline and improve daily habits	Mindset, Productivity
+Deep Work	Cal Newport	Improve focus and eliminate distractions	Productivity, Career
+The Psychology of Money	Morgan Housel	Learn financial thinking and wealth building	Money
+The 7 Habits of Highly Effective People	Stephen R. Covey	Improve leadership and personal effectiveness
 
+Book	Author	Why I Plan to Read It	Category
+How to Win Friends and Influence People	Dale Carnegie	Improve communication and people skills	Communication
+The Lean Startup	Eric Ries	Learn product building and innovation	Career
+Can't Hurt Me	David Goggins	Build mental toughness and resilience	Mindset
+
+Book	Author	Why I Plan to Read It	Category
+The Phoenix Project	Gene Kim	Understand DevOps culture and IT transformation	DevOps, Career
+Designing Data-Intensive Applications	Martin Kleppmann	Learn scalable systems design	Technical Growth
+The Personal MBA	Josh Kaufman	Learn business thinking and management	Money, Leadership
 
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
