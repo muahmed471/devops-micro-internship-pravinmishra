@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When someone in the USA accesses a website hosted in Finland like EpicReads,, their browser sends a request using HTTP/HTTPS (the web protocol that defines how pages are requested and delivered securely). This request is broken into smaller units called packets using TCP/IP, the core internet protocol suite — TCP ensures reliable delivery and correct order, while IP handles addressing. Each packet is given the website’s IP address, which uniquely identifies the server in Finland. These packets travel across the internet through packet switching, where each packet may take different routes via multiple routers and networks. Once they reach the Finnish server, the server sends response packets back the same way. The browser then reassembles these packets and displays the webpage. This entire process happens in fractions of a second, making global communication seamless.
 
 ---
 
@@ -71,14 +71,14 @@ EpicReads bookstore has two application versions:
 
 ### Two-Tier Application
 
-* Frontend
-* Database
+* Frontend 
+* Database 
 
 ### Three-Tier Application
 
-* Frontend
-* Backend
-* Database
+* Frontend 
+* Backend 
+* Database 
 
 ## Your Task
 
@@ -102,18 +102,16 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+HTML, CSS, JavaScript
+React / Angular / Vue
 
 ### Backend
+NodeJS, Python, Java
 
-* Add your answer here...
-* Add your answer here...
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+MYSQL, POSTGRESQL, Oracle DB
 
 ---
 
@@ -142,9 +140,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS is the internet’s phonebook: it translates human-readable names (like epicreads.com) into IP addresses so browsers know where to connect. My friend should create an A record for epicreads.com (and optionally www) pointing to 52.172.142.222, because an A record maps a hostname to an IPv4 address. Note: DNS does not carry port numbers, so users must visit http://epicreads.com:3000 or run a reverse proxy on ports 80/443 that forwards to port 3000.
 
----
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
@@ -215,10 +212,11 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c 
+
 
 ```text
-Add your URL here...
+This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 ```
 
 ---
@@ -235,19 +233,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Internet & Networking and App Architecture was easy to understand.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+For me how to provide the prompts to get the most out of ChatGPT. How the prompt will have good impact on getting the right answer.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I will concentrate on Hands-On part, will practice few prompts to understand better.
 
 ---
 
