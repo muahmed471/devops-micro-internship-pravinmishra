@@ -363,31 +363,35 @@ Examples:
 * Environment setup
 
 #### My Distraction Rules
-Phone Rules
+**Phone Rules**
 Keep phone away during deep work sessions
 Turn off unnecessary notifications
 Avoid checking phone immediately after waking up
 Use phone only for important work or learning purposes
 No phone usage during study time
-Social Media Rules
+
+**Social Media Rules**
 Avoid unnecessary scrolling on social media
 Use social media only for learning and professional networking
 Limit entertainment content consumption
 No social media during work or focused learning hours
 Avoid checking social media before sleeping
-Environment Setup
+
+**Environment Setup**
 Keep workspace clean and organized
 Maintain a quiet study and work environment
 Keep only necessary devices and materials nearby
 Use headphones or a distraction-free setup when needed
 Plan daily tasks before starting work
-Focus Rules
+
+**Focus Rules**
 Work on one task at a time
 Avoid multitasking during important work
 Follow a fixed daily routine
 Take short breaks between focused sessions
 Prioritize important work before low-value activities
-Personal Discipline Rules
+
+**Personal Discipline Rules**
 Sleep on time and wake up early
 Avoid procrastination
 Stay consistent with daily habits
@@ -398,28 +402,24 @@ Review daily progress before ending the day
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that I have a strong desire to continuously learn and improve my career, especially in technology, but I perform much better when I follow a structured plan instead of learning randomly. Consistency is more important for me than motivation.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I noticed that I sometimes spend too much time thinking about future goals and learning many different things at once, which causes distraction and slows down my actual progress. I need to focus on one priority at a time instead of switching too frequently.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+From this week onward, I will follow a daily 90-minute focused learning session from 8:00 PM to 9:30 PM dedicated only to skill building in DevOps, Cloud, and AI/MLOps, with no phone usage or social media during that time.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
-
-`__________________________`
-
----
+https://www.linkedin.com/feed/update/urn:li:share:7478545098205528064/
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: (https://www.linkedin.com/in/muneer-ahmed-25322b206/recent-activity/all/) 
+- Blog / Medium : (https://www.linkedin.com/in/muneer-ahmed-25322b206/recent-activity/all/)
 
 ---
 
