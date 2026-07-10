@@ -20,9 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
-
----
+<img width="377" height="442" alt="Assignment03-image-01" src="https://github.com/user-attachments/assets/4696d29b-d531-49ad-b238-f619cacf2b8e" />
 
 # Task 2 — Add the Skill Files
 
@@ -34,15 +32,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+<img width="390" height="303" alt="Assignment03-image-02" src="https://github.com/user-attachments/assets/9891cbae-795b-4c92-93f0-7e8f8aba3ee3" />
 
----
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+<img width="1481" height="492" alt="Assignment03-image-12" src="https://github.com/user-attachments/assets/647a2c4f-7b07-4be9-847a-73ed50af390c" />
 
----
 
 # Task 3 — Run /scaffold-terraform
 
@@ -54,15 +50,13 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+<img width="1136" height="622" alt="Assignment03-image-06" src="https://github.com/user-attachments/assets/b32a52fa-780f-48c0-a149-c86011164318" />
 
----
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
+<img width="1542" height="701" alt="Assignment03-image-10" src="https://github.com/user-attachments/assets/f2a9f6d2-15a5-4d31-9635-3d4a29061371" />
 
----
 
 # Task 4 — Run terraform init and /tf-plan
 
@@ -74,9 +68,8 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+<img width="1527" height="840" alt="Assignment03-image-11" src="https://github.com/user-attachments/assets/cf18cc41-a860-4f2e-8ab8-7e3fcae4c8cf" />
 
----
 
 # Submission Instructions
 
@@ -88,16 +81,13 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
-`__________________________`
+https://github.com/muahmed471/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
-`__________________________`
----
+https://www.linkedin.com/feed/update/urn:li:ugcPost:7481275829038092288/
 
 # Completion Checklist
 
