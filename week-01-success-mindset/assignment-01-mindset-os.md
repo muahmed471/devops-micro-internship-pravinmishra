@@ -133,7 +133,15 @@ https://www.linkedin.com/feed/update/urn:li:share:7478535518704758785/
 
 ### Public Link
 
+<<<<<<< HEAD
 https://www.linkedin.com/feed/update/urn:li:share:7478535518704758785/
+=======
+Paste your link here:
+
+`Add your URL here`
+
+---
+>>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
@@ -414,7 +422,15 @@ From this week onward, I will follow a daily 90-minute focused learning session 
 
 ### LinkedIn Post
 
+<<<<<<< HEAD
 https://www.linkedin.com/feed/update/urn:li:share:7478545098205528064/
+=======
+Paste your LinkedIn post link here:
+
+`Add your URL here`
+
+---
+>>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
 
 ## 10. Proof of Work
 

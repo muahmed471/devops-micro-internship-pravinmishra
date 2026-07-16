@@ -336,7 +336,13 @@ Unused cloud resources continue to consume resources and may incur unnecessary c
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/feed/update/urn:li:share:7483909250222661632/
+=======
+`Add your URL here`
+
+---
+>>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
 
 #### Screenshot — Published LinkedIn post
 
