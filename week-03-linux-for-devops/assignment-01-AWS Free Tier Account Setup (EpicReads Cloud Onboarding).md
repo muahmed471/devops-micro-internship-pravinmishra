@@ -20,21 +20,15 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
-
----
+AWS Account is a container which holds our account name and access id to login, learn the services and perform the tasks. It's useful for learning cloud servicves such as creating a S3 bucket, launching an EC2 instance, Elastic Container Service, EKS...etc. AWS account holds our personal info such as email id, mobile number and other details which helps us to login and perform the tasks.
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
-
----
+AWS Free tier is about the services which can be used for certain period example, EC2, VPC, S3...etc. Few services are free for a life time and few services are free for 12months from you create an account with AWS.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
-
----
+Three AWS Free tier services are Amazon EC2, S3 and VPC. EC2 can be used for 750hours a month, S3 is about 5TB free and VPC is free for some extent.
 
 # Task 2 — Create AWS Free Tier Account
 
@@ -56,9 +50,8 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+<img width="1792" height="842" alt="image" src="https://github.com/user-attachments/assets/03c76b2b-de1e-4d95-9641-9f767e639daf" />
 
----
 
 # Submission Instructions
 
