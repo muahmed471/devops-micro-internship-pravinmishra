@@ -44,6 +44,80 @@ Go through the [Onboarding](./onboarding) folder for complete assignment guideli
 
 ---
 
+<<<<<<< HEAD
+=======
+## 📌 How You're Scored
+
+These rules apply **every week** without exception. Every submission is reviewed using the same criteria to ensure consistency and fairness.
+
+### 1. Folder and File Structure
+
+Your folder and file names **must match the official template exactly**.
+
+* Do **not** rename folders or files.
+* Regularly sync your fork with the upstream repository (refer to the onboarding guide) to ensure you have the latest template.
+* Any folder or file that does not match the required structure will be treated as **missing**.
+
+### 2. Assignment Files (20 Points Each)
+
+Each assignment file is graded on a **pass/fail** basis. There is **no partial credit**.
+
+To receive the full **20 points**, the file must:
+
+* Be genuinely completed and **not** remain an untouched copy of the template.
+* Replace **every placeholder** with the required content. This includes placeholders such as:
+
+  * "Add your answer here"
+  * "Add your screenshot here."
+  * "Add your URL here"
+  * "Add your post content here"
+* Contain **at least 50 words of your own original writing**.
+
+**Important:** Every placeholder must be replaced with the appropriate required content. If **any** placeholder is left unchanged, missing, or contains incorrect or incomplete content, the **entire assignment file will be marked as Failed**.
+
+### 3. LinkedIn Post (10 Points)
+
+One LinkedIn post is required each week.
+
+To earn the points:
+
+* The link in your **README progress table** must be a valid LinkedIn **post** URL beginning with:
+  `https://www.linkedin.com/posts/`
+* Profile links, feed links, or shortened URLs will **not** be accepted.
+* Your LinkedIn post must include the required **P.S. credit line** and **hashtag** specified at the top of this document.
+
+### 4. Blog Post (30 Points)
+
+One blog post is required each week.
+
+To receive full credit:
+
+* The link must be accessible and load successfully.
+* The post must contain **at least 200 words**.
+* It must include the required **P.S. credit line**, the same one required for your LinkedIn post, mentioning **"DevOps Micro Internship," "DMI," or "Pravin Mishra."**
+
+### 5. Attendance (Up to 30 Points)
+
+Attendance is worth **10 points** for each Saturday session:
+
+* Morning Session – 10 points
+* Mid Session – 10 points
+* Evening Session – 10 points
+
+You can earn a maximum of **30 attendance points per week**.
+
+**Note:** Attendance grading begins in **Week 4**. **Weeks 1–3 do not include attendance points.**
+
+### 6. Screenshots
+
+Screenshots are a **mandatory requirement** for every assignment.
+
+* Ensure the `screenshots/` folder contains **all required screenshots** as proof of your completed work.
+* If **any required screenshot is missing** or the `screenshots/` folder is empty, the **entire assignment will be marked as Failed**.
+
+---
+
+>>>>>>> 1254de0 (Rewrite scoring guidelines and stop tracking CLAUDE.md)
 
 ## Week-1  — Success Mindset
 
