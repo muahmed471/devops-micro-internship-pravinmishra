@@ -218,9 +218,13 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
-
----
+I can verify the deployment from multiple angles rather than relying on a single check.
+For Example:
+curl http://localhost/version
+curl http://localhost/actuator/info
+Ex:
+  "version": "2.5.1",
+  "build": "20260717"
 
 # Task 6 — Nginx Configuration Failure Simulation
 
@@ -232,21 +236,16 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+<img width="1197" height="242" alt="image" src="https://github.com/user-attachments/assets/76545c6c-08b0-4d7c-983d-7c43f39fc735" />
 
----
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
-
----
+<img width="1112" height="172" alt="image" src="https://github.com/user-attachments/assets/5b63b784-3187-4e02-9fce-ca07eb5669f4" />
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
-
----
+<img width="971" height="662" alt="image" src="https://github.com/user-attachments/assets/8cae7d04-6014-4491-b25e-66bb26eb8376" />
 
 ### Notes
 
@@ -254,21 +253,16 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
-
----
+The configuration failure was caused by a syntax error in the Nginx configuration file. An extra closing brace (}) was present in the configuration, which made the file invalid. When I ran sudo nginx -t, Nginx detected the error and reported the exact file and line number where the issue occurred.
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I opened the Nginx configuration file, removed the incorrect syntax, and ensured that all braces and directives were properly configured. After making the changes, I verified the configuration using sudo nginx -t. Once the test returned "syntax is ok" and "test is successful", I reloaded the Nginx service using sudo systemctl reload nginx and confirmed the application was accessible by running curl -I http://<public-ip>, which returned HTTP/1.1 200 OK.
 
----
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
-
----
+To avoid this issue in production, I would always validate the configuration with sudo nginx -t before reloading or restarting Nginx. I would keep configuration files under version control, maintain backups of the last working configuration, and use code reviews for configuration changes. Whenever possible, I would test changes in a staging environment first and use systemctl reload nginx instead of a restart to apply validated configuration changes with minimal downtime.
 
 # Task 7 — Web Application Failure Simulation
 
@@ -280,15 +274,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+<img width="1242" height="677" alt="image" src="https://github.com/user-attachments/assets/61f33525-df4f-48e6-985b-83403dd1a577" />
 
----
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+<img width="991" height="690" alt="image" src="https://github.com/user-attachments/assets/d0fd623b-a9ec-4922-8469-9aa0e164252a" />
 
----
 
 ### Notes
 
@@ -296,21 +288,15 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
-
----
+The application became unavailable because the Nginx configuration contained an error, which prevented Nginx from properly serving requests. As a result, requests to the application's public IP did not return a successful response. The issue was identified by checking the Nginx configuration and testing connectivity using curl.
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
-
----
+I reviewed the Nginx configuration, corrected the configuration error, and validated the changes using sudo nginx -t. After confirming the configuration was valid, I reloaded the Nginx service using sudo systemctl reload nginx. Finally, I verified that the application was restored by running curl -I http://<public-ip>, which returned HTTP/1.1 200 OK, confirming the application was accessible again.
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
-
----
+To prevent similar issues in production, I would always validate the Nginx configuration using sudo nginx -t before applying any changes. I would maintain configuration files in version control, perform peer reviews for configuration updates, and test changes in a staging environment before deploying to production. I would also use monitoring and alerting tools to quickly detect failures and prefer systemctl reload nginx over a restart after successful configuration validation to minimize downtime.
 
 # Task 8 — Security & Reliability Review
 
@@ -324,33 +310,23 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
-
----
+SSH key-based authentication is more secure because it uses a unique public and private key pair instead of a password that can be guessed or stolen. The private key never leaves the user's device, making it much harder for attackers to gain unauthorized access. It also reduces the risk of brute-force attacks and password leaks.
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
-
----
+Only the ports required by the application should be open to reduce the server's attack surface. Closing unnecessary ports helps prevent unauthorized access, minimizes security risks, and ensures that only approved services are accessible from the network.
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
-
----
+Enabling Nginx on boot ensures that the web server starts automatically whenever the server is restarted. This helps maintain application availability without requiring manual intervention and reduces service downtime after system reboots or maintenance.
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
-
----
+Sharing secrets, API keys, passwords, or private SSH keys can allow unauthorized users to access servers, applications, or cloud resources. This can lead to data breaches, service disruptions, financial loss, and unauthorized changes to systems. Sensitive credentials should always be stored securely and never shared publicly.
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
-
----
+Unused cloud resources continue to consume resources and may incur unnecessary costs. Stopping or terminating them helps reduce expenses, improves security by eliminating unused systems, and keeps the cloud environment clean and easier to manage.
 
 # LinkedIn Post (Required)
 
@@ -360,15 +336,12 @@ Write your answer here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
-
----
+https://www.linkedin.com/feed/update/urn:li:share:7483909250222661632/
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="672" height="747" alt="image" src="https://github.com/user-attachments/assets/e95aedef-909b-43bb-b650-70d6bb05f062" />
 
----
 
 # Submission Instructions
 
