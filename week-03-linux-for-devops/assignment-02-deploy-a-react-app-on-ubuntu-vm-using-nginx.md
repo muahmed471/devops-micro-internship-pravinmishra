@@ -20,9 +20,8 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-Add your screenshot here.
+<img width="1827" height="772" alt="image" src="https://github.com/user-attachments/assets/75557825-b98b-4661-a66c-cf3a863917f1" />
 
----
 
 # Task 2 — Setup Environment (Nginx)
 
@@ -34,9 +33,8 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+<img width="1891" height="517" alt="image" src="https://github.com/user-attachments/assets/7e07cebe-3990-4345-8102-5d3d11005c79" />
 
----
 
 # Task 3 — Clone React Application
 
@@ -48,9 +46,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-Add your screenshot here.
-
----
+<img width="990" height="287" alt="image" src="https://github.com/user-attachments/assets/2e8ca1a6-a63e-4bf7-8e95-164746c403bd" />
 
 # Task 4 — Modify Application (Personalization)
 
@@ -62,9 +58,8 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-Add your screenshot here.
+<img width="1056" height="547" alt="image" src="https://github.com/user-attachments/assets/90ca2724-092c-4b07-bc72-05f3624ff56c" />
 
----
 
 # Task 5 — Build React Application
 
@@ -76,9 +71,8 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-Add your screenshot here.
+<img width="1012" height="291" alt="image" src="https://github.com/user-attachments/assets/d220e73b-c29e-468f-ae74-13db86de47ad" />
 
----
 
 # Task 6 — Deploy React Build to Nginx Web Root
 
@@ -90,9 +84,8 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-Add your screenshot here.
+<img width="1187" height="346" alt="image" src="https://github.com/user-attachments/assets/a11457cc-ff01-4c1a-a130-5b446aa8175f" />
 
----
 
 # Task 7 — Configure Nginx for React Application
 
@@ -104,15 +97,12 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-Add your screenshot here.
-
----
+<img width="776" height="95" alt="image" src="https://github.com/user-attachments/assets/3b7b718f-1f99-47ff-8547-34bbbadad917" />
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-Add your screenshot here.
+<img width="865" height="307" alt="image" src="https://github.com/user-attachments/assets/9491367f-a928-4d99-98d8-827b49e57d24" />
 
----
 
 # Task 8 — Test Deployment
 
@@ -124,15 +114,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+<img width="750" height="51" alt="image" src="https://github.com/user-attachments/assets/71210638-598c-4db7-a8c6-263a05fe5ad9" />
 
----
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-Add your screenshot here.
+<img width="1487" height="647" alt="image" src="https://github.com/user-attachments/assets/88089269-b2a9-46cb-8d0e-093c753164a2" />
 
----
 
 # LinkedIn Post (Required)
 
@@ -142,15 +130,12 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
-
----
+https://www.linkedin.com/feed/update/urn:li:share:7483763097640394752/
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-Add your screenshot here.
+<img width="676" height="952" alt="image" src="https://github.com/user-attachments/assets/cd648ff3-af97-4509-8bf5-2bf6eeaae937" />
 
----
 
 # Submission Instructions
 
