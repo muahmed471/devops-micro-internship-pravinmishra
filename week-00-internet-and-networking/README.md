@@ -227,9 +227,9 @@ This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. 
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+<img width="677" height="702" alt="image" src="https://github.com/user-attachments/assets/2beca16a-ea59-46f2-abbf-a1e160b45e1d" />
 
----
+P.S. This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
 # Reflection – Week 0
 
