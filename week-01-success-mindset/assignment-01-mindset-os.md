@@ -434,9 +434,8 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: (https://www.linkedin.com/in/muneer-ahmed-25322b206/recent-activity/all/) 
-- Blog / Medium : (https://www.linkedin.com/in/muneer-ahmed-25322b206/recent-activity/all/)
+- Blog / Medium : (https://medium.com/@muahmed471/i-stopped-chasing-productivity-and-started-building-a-system-23eca060e198?postPublishedType=repub)
 
----
 
 ## 📌 About DMI & CloudAdvisory
 
