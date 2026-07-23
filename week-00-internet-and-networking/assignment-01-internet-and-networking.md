@@ -214,7 +214,7 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c 
+https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c
 
 
 ```text
@@ -226,8 +226,6 @@ This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. 
 ## LinkedIn Post Backup Copy
 
 Paste the full text of your LinkedIn post here:
-
-<img width="677" height="702" alt="image" src="https://github.com/user-attachments/assets/2beca16a-ea59-46f2-abbf-a1e160b45e1d" />
 
 P.S. This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
