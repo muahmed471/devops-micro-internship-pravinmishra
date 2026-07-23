@@ -138,9 +138,8 @@ https://www.linkedin.com/feed/update/urn:li:share:7478535518704758785/
 =======
 Paste your link here:
 
-`Add your URL here`
+https://www.linkedin.com/feed/update/urn:li:share:7478535518704758785/
 
----
 >>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
