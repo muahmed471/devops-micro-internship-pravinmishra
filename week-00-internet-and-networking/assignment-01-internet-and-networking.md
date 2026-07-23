@@ -227,7 +227,7 @@ This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. 
 
 Paste the full text of your LinkedIn post here:
 
-P.S. This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
+P.S. This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist. https://dmi.pravinmishra.com/
 
 # Reflection – Week 0
 
