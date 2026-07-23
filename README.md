@@ -130,7 +130,7 @@ Week 00 → Internet & Networking Basics
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/p/774c9fe510b3?postPublishedType=initial |
+| 00 | Internet & Networking Basics | Completed | Completed | https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/p/774c9fe510b3?postPublishedType=initial |
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
