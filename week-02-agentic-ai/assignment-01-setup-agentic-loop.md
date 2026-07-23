@@ -79,7 +79,8 @@ https://github.com/muahmed471/Ultimate-Agentic-DevOps-with-Claude-Code
 
 `Add your URL here`
 
----
+https://github.com/muahmed471/Ultimate-Agentic-DevOps-with-Claude-Code
+
 >>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
 
 # Completion Checklist
