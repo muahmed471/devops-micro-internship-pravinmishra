@@ -20,9 +20,8 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+<img width="582" height="282" alt="image" src="https://github.com/user-attachments/assets/f011a3a9-ae5c-4d26-b9ca-6c3bc4bdaa5b" />
 
----
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
