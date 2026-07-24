@@ -64,21 +64,15 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
-
----
+Project-specific operational rules help Claude understand the application's architecture, team standards, and approved procedures. This ensures it provides accurate, consistent, and safe guidance that aligns with the project's requirements while avoiding actions that could violate organizational policies.
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
-
----
+A human must execute the recovery command because recovery actions can directly affect production systems and business operations. Human approval provides oversight, verifies that the proposed action is appropriate, and prevents accidental or unsafe changes made without proper authorization.
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
-
----
+The rule that requires evidence before conclusions prevents Claude from making an unsupported diagnosis. Claude should rely on logs, metrics, monitoring data, and other verified evidence, and if there isn't enough information, it should state the uncertainty and request additional data instead of guessing.
 
 # Task 3 — Use Agentic AI to Plan Before Writing the Script
 
@@ -90,9 +84,8 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+<img width="1851" height="840" alt="image" src="https://github.com/user-attachments/assets/8d297cfc-52c2-4b16-b035-fa6519c93438" />
 
----
 
 ### Notes
 
@@ -100,21 +93,15 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
-
----
+The Gather phase is when Claude inspects the repository, reviews the project structure, configuration files, dependencies, tests, and Git status without making any changes. It collects information to understand the project before suggesting any actions.
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
-
----
+Yes. Claude only performed a read-only inspection and did not create or modify any files. I verified this by checking the Git status (git status), which showed no changes, and by confirming that no new files appeared in the repository.
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
-
----
+Planning before coding helps identify the project requirements, dependencies, and potential risks before making changes. This reduces errors, avoids unnecessary modifications, and ensures automation is implemented in a safe, efficient, and reliable manner.
 
 # Task 4 — Build the Linux Triage Bash Script
 
@@ -126,27 +113,23 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+<img width="780" height="717" alt="image" src="https://github.com/user-attachments/assets/e21224e6-504e-4823-a989-eeb4fd2491a7" />
 
----
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+<img width="957" height="845" alt="image" src="https://github.com/user-attachments/assets/6723c490-a11d-4c15-92a1-ee7127940572" />
 
----
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+<img width="1010" height="846" alt="image" src="https://github.com/user-attachments/assets/41b2f444-a417-4620-8a83-48b7bf2fc8a6" />
 
----
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+<img width="707" height="102" alt="image" src="https://github.com/user-attachments/assets/65eb2aa2-97c3-4812-b700-86e0dea4d957" />
 
----
 
 ### Notes
 
@@ -154,33 +137,23 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
-
----
+The checks array stores the names of the health check functions that the script needs to run. Each item represents a specific system check, such as CPU, memory, disk, or service status.
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
-
----
+The for loop goes through each item in the checks array one by one and executes the corresponding health check function. This allows the script to perform all checks automatically without repeating code.
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
-
----
+Separating the health checks into functions makes the script more organized, easier to read, and simpler to maintain. It also allows individual checks to be updated, tested, or reused without affecting the rest of the script.
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
-
----
+$(...) is used for command substitution. It runs a command and captures its output so the result can be assigned to a variable or used as part of another command.
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
-
----
+Different exit codes allow other programs or automation tools to understand the script's result. A success code indicates the system is healthy, while warning and failure codes signal increasing levels of concern, enabling monitoring tools or CI/CD pipelines to take appropriate actions automatically.
 
 # Task 5 — Run and Understand the Healthy-State Report
 
@@ -192,15 +165,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+<img width="767" height="457" alt="image" src="https://github.com/user-attachments/assets/e6b802df-8a77-4db6-a86a-713fb0d6cb8a" />
 
----
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+<img width="997" height="457" alt="image" src="https://github.com/user-attachments/assets/655fab3c-6a13-4065-b424-f211795c2127" />
 
----
 
 ### Notes
 
@@ -208,27 +179,19 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
-
----
+The overall status of my healthy baseline is HEALTHY. All required system and application health checks completed successfully, indicating that the server and application are operating normally.
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
-
----
+The application is proven to be serving traffic by a successful HTTP response from the application endpoint. Running a command such as curl http://localhost:<port> returned the expected response (for example, HTTP 200 OK), confirming that the application is accessible and responding to requests.
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
-
----
+My script returned exit code 0 because all health checks passed successfully and no critical failures were detected. An exit code of 0 indicates that the system is healthy and operating as expected.
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
-
----
+A warning indicates a non-critical issue, such as a resource approaching its threshold, while the system continues to function normally. A failure indicates a critical problem, such as an unavailable service or failed health check, that may impact the application's operation and requires immediate attention.
 
 # Task 6 — Create and Run the /linux-triage Skill
 
