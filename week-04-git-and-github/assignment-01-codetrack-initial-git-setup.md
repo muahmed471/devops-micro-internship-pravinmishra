@@ -20,23 +20,19 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+<img width="767" height="382" alt="image" src="https://github.com/user-attachments/assets/bdecd831-4f34-4df5-a528-a4333ec25cd2" />
 
----
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+<img width="612" height="125" alt="image" src="https://github.com/user-attachments/assets/4ff9955b-0551-41ad-a97f-6471c45f98b8" />
 
----
 
 ### Notes
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
-
----
+The .git folder is the hidden directory that Git creates when a repository is initialized. It stores all the repository's metadata, including commit history, branches, tags, configuration, staging information, and references. This folder is essential because it allows Git to track changes, manage versions, switch between branches, and recover previous versions of files. Without the .git folder, the project is just a normal directory and Git can no longer recognize it as a repository.
 
 # Task 2 — Configure Git Identity Locally (Repository-Only)
 
@@ -46,11 +42,13 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 ### Evidence
 
+<img width="727" height="167" alt="image" src="https://github.com/user-attachments/assets/6c14d570-199e-4068-8ad7-b1cd142ca637" />
+
+
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<img width="597" height="222" alt="image" src="https://github.com/user-attachments/assets/406ce0b9-63b1-4663-a7d8-cc1d4cfdedb5" />
 
----
 
 # Task 3 — Configure Git Identity Globally
 
@@ -60,11 +58,14 @@ Set a global Git username and email for this machine using `git config --global`
 
 ### Evidence
 
+<img width="661" height="106" alt="image" src="https://github.com/user-attachments/assets/f4e2cd1c-0256-4817-b001-4856af124e99" />
+
+
+
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<img width="602" height="142" alt="image" src="https://github.com/user-attachments/assets/001035cb-b4e5-42c0-b77a-01ca8634aabc" />
 
----
 
 # Submission Instructions
 
