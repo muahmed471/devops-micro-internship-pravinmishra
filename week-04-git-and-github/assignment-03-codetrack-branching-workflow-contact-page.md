@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Assignment 3 — CodeTrack Branching Workflow: Contact Page
 =======
 # Assignment 3 — CodeTrack: Branching Workflow (Add & Verify a Contact Page)
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+# Assignment 3 — CodeTrack: Branching Workflow (Add & Verify a Contact Page)
+>>>>>>> upstream/main
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -11,10 +15,14 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 ## Purpose
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 In this assignment, you will create a feature branch, add a Contact page through two atomic commits, prove that the default branch remains unchanged before merging, merge the feature, and inspect the Git history.
 =======
 In this assignment, you will add a new Contact page to CodeTrack using a clean feature-branch workflow. You will keep each change in a separate commit, prove that your default branch remains unchanged before the merge, and validate the result after merging.
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+In this assignment, you will add a new Contact page to CodeTrack using a clean feature-branch workflow. You will keep each change in a separate commit, prove that your default branch remains unchanged before the merge, and validate the result after merging.
+>>>>>>> upstream/main
 
 ---
 
@@ -23,18 +31,24 @@ In this assignment, you will add a new Contact page to CodeTrack using a clean f
 ## Goal
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Start from a clean default branch and confirm that you are working in the correct repository.
 
 ### Evidence
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and that you are on `main` or `master`
 =======
+=======
+>>>>>>> upstream/main
 Start from a clean default branch (`main` or `master`) and confirm the repository status.
 
 ### Evidence
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 
 Add your screenshot here.
 
@@ -49,15 +63,20 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 ### Evidence
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Screenshot 2 — Branch creation output and `git branch` showing `* feature/contact-page`
 =======
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+#### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
+>>>>>>> upstream/main
 
 Add your screenshot here.
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Task 3 — Add `contact.html` on the Feature Branch
 
@@ -65,12 +84,17 @@ Add your screenshot here.
 
 Create `contact.html` and record it as a dedicated atomic commit on `feature/contact-page`.
 =======
+=======
+>>>>>>> upstream/main
 # Task 3 — Add contact.html on the Feature Branch
 
 ## Goal
 
 Create `contact.html` with the provided content and commit it alone using the message `feat(contact): add Contact page`.
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 
 ### Evidence
 
@@ -81,10 +105,14 @@ Add your screenshot here.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Screenshot 4 — Output of `git commit -m "feat(contact): add Contact page"`
 =======
 #### Screenshot 4 — Output of `git commit`
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+#### Screenshot 4 — Output of `git commit`
+>>>>>>> upstream/main
 
 Add your screenshot here.
 
@@ -97,18 +125,24 @@ Add your screenshot here.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Task 4 — Add the Contact Link to `index.html`
 
 ## Goal
 
 Add the Contact page link to the homepage and record it in a separate atomic commit.
 =======
+=======
+>>>>>>> upstream/main
 # Task 4 — Add the Contact Link to index.html
 
 ## Goal
 
 Add the provided Contact Page link to `index.html` and commit it separately using the message `feat(nav): add Contact Page link`.
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 
 ### Evidence
 
@@ -119,10 +153,14 @@ Add your screenshot here.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Screenshot 7 — Output of `git commit -m "feat(nav): add Contact Page link"`
 =======
 #### Screenshot 7 — Output of `git commit`
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+#### Screenshot 7 — Output of `git commit`
+>>>>>>> upstream/main
 
 Add your screenshot here.
 
@@ -139,28 +177,38 @@ Add your screenshot here.
 ## Goal
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Demonstrate that the feature work does not affect `main` or `master` before it is merged.
 
 ### Evidence
 
 #### Screenshot 9 — Terminal showing the checkout command and `ls`, proving that `contact.html` is absent
 =======
+=======
+>>>>>>> upstream/main
 Switch back to the default branch and confirm that `contact.html` and the Contact Page link do not exist there yet.
 
 ### Evidence
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 
 Add your screenshot here.
 
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Screenshot 10 — Browser showing that the Contact Page link is not present on the default branch
 =======
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+#### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
+>>>>>>> upstream/main
 
 Add your screenshot here.
 
@@ -171,10 +219,14 @@ Add your screenshot here.
 ## Goal
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Merge `feature/contact-page` into `main` or `master` and validate the completed feature.
 =======
 Merge `feature/contact-page` into your default branch and confirm the Contact page works.
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+Merge `feature/contact-page` into your default branch and confirm the Contact page works.
+>>>>>>> upstream/main
 
 ### Evidence
 
@@ -201,10 +253,14 @@ Add your screenshot here.
 ## Goal
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Display the repository history in graph form and verify the feature commits.
 =======
 Display the repository history as a graph and locate both feature commits.
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+Display the repository history as a graph and locate both feature commits.
+>>>>>>> upstream/main
 
 ### Evidence
 
@@ -219,6 +275,7 @@ Add your screenshot here.
 ## Goal
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Remove the merged local feature branch to keep the branch list clean.
 
 ### Optional Evidence
@@ -227,6 +284,8 @@ Remove the merged local feature branch to keep the branch list clean.
 
 Add your screenshot here if you complete this task.
 =======
+=======
+>>>>>>> upstream/main
 Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 ### Evidence
@@ -234,12 +293,16 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
 Add your screenshot here.
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 
 ---
 
 # Submission Instructions
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Add Screenshots 1–14 in the correct task sections
 - Add optional Screenshot 15 only if you complete Task 8
@@ -249,16 +312,22 @@ Add your screenshot here.
 - Include the graph log showing the relevant commit history
 - Do not expose sensitive information
 =======
+=======
+>>>>>>> upstream/main
 - Tasks 1–7 are required; Task 8 is optional
 - Add all required screenshots in your submission
 - Evidence must show `contact.html` and the homepage link were absent before merging, and working after merging
 - Do not expose passwords, access tokens, or private keys
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 
 ---
 
 # Completion Checklist
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [ ] Started from a clean `main` or `master` branch
 - [ ] Created and used `feature/contact-page`
@@ -273,6 +342,8 @@ Add your screenshot here.
 - [ ] Graph history inspected and captured
 - [ ] Screenshots 1–14 included and readable
 =======
+=======
+>>>>>>> upstream/main
 - [ ] Repository confirmed clean on the default branch (Screenshot 1)
 - [ ] `feature/contact-page` created and checked out (Screenshot 2)
 - [ ] `contact.html` added in its own commit (Screenshots 3–5)
@@ -281,11 +352,15 @@ Add your screenshot here.
 - [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
 - [ ] Graph history reviewed (Screenshot 14)
 - [ ] Optional cleanup completed (Screenshot 15)
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 - [ ] No sensitive data exposed
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # About DMI & CloudAdvisory
 
@@ -305,6 +380,8 @@ It helps learners build strong DevOps foundations through hands-on experience.
 * 🔗 Pravin Mishra (LinkedIn): [https://www.linkedin.com/in/pravin-mishra-aws-trainer/](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 * 🏢 CloudAdvisory (LinkedIn): [https://www.linkedin.com/company/thecloudadvisory/](https://www.linkedin.com/company/thecloudadvisory/)
 =======
+=======
+>>>>>>> upstream/main
 ## 📌 About DMI & CloudAdvisory
 
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
@@ -315,15 +392,25 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
+<<<<<<< HEAD
 - 🌐 DMI Official Website: https://pravinmishra.com/dmi  
 - 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
 - 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
 - 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
+=======
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+>>>>>>> upstream/main
 - ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
 - 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
+<<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
+=======
+>>>>>>> upstream/main
 
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*

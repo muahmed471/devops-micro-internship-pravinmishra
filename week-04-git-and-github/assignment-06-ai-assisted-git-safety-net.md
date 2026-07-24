@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Assignment 2 — Building an AI-Assisted Git Safety Net (PR Ready Check)
+=======
+# Assignment 6 — Building an AI-Assisted Git Safety Net (PR Ready Check)
+>>>>>>> upstream/main
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -17,12 +21,39 @@ This mirrors the Agentic Loop from Week 3's Linux triage assignment: **Gather �
 
 ---
 
+<<<<<<< HEAD
 # Task 1 — Create a Branch with Realistic Risk
+=======
+# Task 0 — Confirm Your Fork and Create a Feature Branch
+
+## Goal
+
+Confirm you are working in your own fork, then create a dedicated branch for this assignment.
+
+### Evidence
+
+#### Screenshot 1 — Output of git remote -v and git branch showing the new branch
+
+Add your screenshot here.
+
+---
+
+### Notes
+
+**1. Why create a dedicated branch instead of doing this work on main?**
+
+Add your answer here.
+
+---
+
+# Task 1 — Stage a Change With Realistic Risk
+>>>>>>> upstream/main
 
 ## Goal
 
 On your own fork of this repository (the one you've been submitting your DMI work in since onboarding), create a new branch and stage a change that a real reviewer should catch: a hardcoded-looking secret and a leftover debug statement.
 
+<<<<<<< HEAD
 ### What to do
 
 ```bash
@@ -43,6 +74,11 @@ Stage it with `git add`.
 ### Evidence
 
 #### Screenshot 1 — `git status` showing the staged file on your new branch
+=======
+### Evidence
+
+#### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
+>>>>>>> upstream/main
 
 Add your screenshot here.
 
@@ -62,6 +98,7 @@ Add your answer here.
 
 Create a tracked, shareable pre-commit hook that blocks a commit containing secret-like patterns or files over 1MB.
 
+<<<<<<< HEAD
 ### What to do
 
 Create `hooks/pre-commit` (tracked in the repo, not `.git/hooks/`, so teammates get it too):
@@ -99,6 +136,8 @@ chmod +x hooks/pre-commit
 git config core.hooksPath hooks
 ```
 
+=======
+>>>>>>> upstream/main
 ### Evidence
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
@@ -161,6 +200,7 @@ Add your answer here.
 
 Create a manually invoked Claude Code skill that reads your staged changes and produces a PR-readiness report and a draft PR description — without writing, committing, or pushing anything itself.
 
+<<<<<<< HEAD
 ### What to do
 
 Create `.claude/skills/pr-ready/SKILL.md` with frontmatter restricting it to read-only inspection tools:
@@ -188,6 +228,8 @@ You are reviewing staged changes before a Pull Request is opened.
 
 Run it with `/pr-ready`.
 
+=======
+>>>>>>> upstream/main
 ### Evidence
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
@@ -244,7 +286,11 @@ Add your answer here.
 
 ---
 
+<<<<<<< HEAD
 # Task 6 — Open the Pull Request Using the AI Draft
+=======
+# Task 6 — Push and Open a Pull Request Using the AI Draft
+>>>>>>> upstream/main
 
 ## Goal
 
@@ -396,10 +442,17 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
+<<<<<<< HEAD
 - 🌐 DMI Official Website: https://pravinmishra.com/dmi  
 - 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
 - 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
 - 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
+=======
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+>>>>>>> upstream/main
 - ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
 - 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/

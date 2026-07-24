@@ -33,7 +33,13 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
+<<<<<<< HEAD
 I always passoniate about my goals either it's a career, learning, money or descipline. I believe in working on my ethics don't bother who agree and who won't.
+=======
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
 
@@ -53,11 +59,19 @@ Write each truth in this format:
 
 ### Truth
 
+<<<<<<< HEAD
 Fail fast mentality.
 
 ### Evidence from my life
 
 I spent two days to build a perfect project to present to my client. It failed due to environment mismatches, then I switched to building small and robust projects this allowed me to catch the errors early and finish the project on time.
+=======
+Add your answer here...
+
+### Evidence from my life
+
+Add your answer here...
+>>>>>>> upstream/main
 
 ---
 
@@ -65,21 +79,41 @@ I spent two days to build a perfect project to present to my client. It failed d
 
 ### Truth
 
+<<<<<<< HEAD
 Consistency is more important.
 
 ### Evidence from my life
 
 Instead of trying to crash diet, I started walking 20minutes every morning. After six months, I felt significantly more energitic amd had developed a habit that felt effortless rather than like a chore.
+=======
+Add your answer here...
+
+### Evidence from my life
+
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 ## Truth #3
 
 ### Truth
 
+<<<<<<< HEAD
 Vulnerability often builds stronger connections than perfection does.
 
 ### Evidence from my life
 
 I was nervous about telling my team I didn't understand a new package update. When I finally spoke up. other colleagues admitted they were also confused. We ended up having a productive training session that brought us closer together.
+=======
+Add your answer here...
+
+### Evidence from my life
+
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 # Assignment 3. What does your 2.0 version look like?
 
@@ -125,6 +159,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
+<<<<<<< HEAD
 > **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
 
 ## Your Article
@@ -141,6 +176,21 @@ Paste your link here:
 https://www.linkedin.com/feed/update/urn:li:share:7478535518704758785/
 
 >>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
+=======
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
+## Your Article
+
+Add your answer here...
+
+### Public Link
+
+Paste your link here:
+
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
@@ -170,8 +220,14 @@ If Yes:
 
 ## Answer
 
+<<<<<<< HEAD
 Yes
 When I choose to take an unethical shortcut to meet a deadline, the immediate relief was quickly replaced by a gnawing sense of anxiety. I felt a deep, underlying shame whenever the work was praised, knowing the result wasn't fully earned. This creates a persistent layer of stress, as I constantly feared being discovered. Ultimately the experience left me with a heavy sense of regret. the time saved wasn't worth the loss of my own peace of mind and the integrity I usually pride myself on.
+=======
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
@@ -194,6 +250,7 @@ Choose books that improve:
 * leadership
 
 ## Book List
+<<<<<<< HEAD
 Book	Author	Why I Plan to Read It	Category
 Atomic Habits	James Clear	Build discipline and improve daily habits	Mindset, Productivity
 Deep Work	Cal Newport	Improve focus and eliminate distractions	Productivity, Career
@@ -210,6 +267,21 @@ The Phoenix Project	Gene Kim	Understand DevOps culture and IT transformation	Dev
 Designing Data-Intensive Applications	Martin Kleppmann	Learn scalable systems design	Technical Growth
 The Personal MBA	Josh Kaufman	Learn business thinking and management	Money, Leadership
 
+=======
+
+1. Add your answer here...
+2. Add your answer here...
+3. Add your answer here...
+4. Add your answer here...
+5. Add your answer here...
+6. Add your answer here...
+7. Add your answer here...
+8. Add your answer here...
+9. Add your answer here...
+10. Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
 
@@ -236,6 +308,7 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
+<<<<<<< HEAD
 Things I Will Measure Regularly in My Life and Career
 Learning / Skill Development
 Technical learning progress
@@ -286,6 +359,20 @@ Decision-making ability
 Problem-solving mindset
 Communication effectiveness
 Contribution to community and knowledge sharing
+=======
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 # Assignment 7. Brain Dump + 5-Month System Plan
 
@@ -307,6 +394,7 @@ Examples:
 
 **Yes / No**
 
+<<<<<<< HEAD
 Answer: Yes
 
 I completed a brain dump by writing down all current tasks, goals, responsibilities, pending work, ideas, personal commitments, career plans, and important priorities that need my attention.
@@ -317,6 +405,13 @@ Learning Kubernetes, Terraform, GitHub Actions, Azure DevOps
 Studying Machine Learning and AI concepts
 Preparing for cloud certifications (AWS/Azure/Kubernetes)
 Building hands-on DevOps and AI projects
+=======
+Answer:
+
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
 
@@ -332,6 +427,7 @@ Example:
 
 #### My Weekly Routine
 
+<<<<<<< HEAD
 Monday – Thursday
 60 minutes technical learning (DevOps, Cloud, AI/ML)
 Practice Python, Bash, and automation scripting
@@ -350,16 +446,31 @@ Weekly review of progress
 Plan goals for the next week
 Spend time on health, exercise, and personal development
 Family time and mental refresh
+=======
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
+<<<<<<< HEAD
 Monday, Wednesday and Friday (9:00PM till 11:00PM) mostly Saturday will join the session and Sunday will make a plan for next week.
 
 #### How Many Sessions Per Week?
 
 4 sessions per week including joining the class on Saturday
+=======
+Add your answer here...
+
+#### How Many Sessions Per Week?
+
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 ### Distraction Rules
 
@@ -370,6 +481,7 @@ Examples:
 * Environment setup
 
 #### My Distraction Rules
+<<<<<<< HEAD
 **Phone Rules**
 Keep phone away during deep work sessions
 Turn off unnecessary notifications
@@ -404,11 +516,18 @@ Avoid procrastination
 Stay consistent with daily habits
 Reduce unnecessary screen time
 Review daily progress before ending the day
+=======
+
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
+<<<<<<< HEAD
 I realized that I have a strong desire to continuously learn and improve my career, especially in technology, but I perform much better when I follow a structured plan instead of learning randomly. Consistency is more important for me than motivation.
 
 ### My biggest weakness/loop I noticed
@@ -424,11 +543,26 @@ From this week onward, I will follow a daily 90-minute focused learning session 
 <<<<<<< HEAD
 https://www.linkedin.com/feed/update/urn:li:share:7478545098205528064/
 =======
+=======
+Add your answer here...
+
+### My biggest weakness/loop I noticed
+
+Add your answer here...
+
+### One system I will implement from this week (exact habit + time)
+
+Add your answer here...
+
+### LinkedIn Post
+
+>>>>>>> upstream/main
 Paste your LinkedIn post link here:
 
 `Add your URL here`
 
 ---
+<<<<<<< HEAD
 >>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
 
 ## 10. Proof of Work
@@ -436,6 +570,15 @@ Paste your LinkedIn post link here:
 - LinkedIn Post URL: (https://www.linkedin.com/in/muneer-ahmed-25322b206/recent-activity/all/) 
 - Blog / Medium : (https://medium.com/@muahmed471/i-stopped-chasing-productivity-and-started-building-a-system-23eca060e198?postPublishedType=repub)
 
+=======
+
+## 10. Proof of Work
+
+- LinkedIn Post URL: **ADD LINK HERE**  
+- Blog / Medium : **ADD LINK HERE**  
+
+---
+>>>>>>> upstream/main
 
 ## 📌 About DMI & CloudAdvisory
 
@@ -446,14 +589,25 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
+<<<<<<< HEAD
 - 🌐 **DMI Official Website:** https://pravinmishra.com/dmi  
 - 🎓 **DevOps for Beginners (Udemy):** https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
 - 🎓 **Ultimate Agentic AI DevOps with Clude Code** https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B
 - 🎓 **DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm** https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3
+=======
+- 🌐 **DMI Official Website:** https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 **University:** https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 **Discord Community:** https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 **Blog:** https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+>>>>>>> upstream/main
 - ▶️ **YouTube Playlist (DMI Cohort 3):** https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
 - 🔗 **Pravin Mishra (LinkedIn):** https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
 - 🏢 **CloudAdvisory (LinkedIn):** https://www.linkedin.com/company/thecloudadvisory/
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
+=======
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
+>>>>>>> upstream/main

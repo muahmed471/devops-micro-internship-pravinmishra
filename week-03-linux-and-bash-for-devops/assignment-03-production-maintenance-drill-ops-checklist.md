@@ -20,6 +20,7 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
+<<<<<<< HEAD
 <img width="1202" height="622" alt="image" src="https://github.com/user-attachments/assets/68afcafa-54a2-435b-a93a-dacb5b401349" />
 
 
@@ -37,6 +38,29 @@ Verify that the deployed React application is reachable from the browser and con
 
 <img width="467" height="80" alt="image" src="https://github.com/user-attachments/assets/c3254a5e-6f59-4e0b-a4fb-46803acf73d4" />
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Output of `ip a`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — Output of `sudo ss -tulpen`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 4 — Output of `sudo ufw status`
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -44,6 +68,7 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
+<<<<<<< HEAD
 Process name: Nginx Listening port: 80 proves Nginx listening on port 0.0.0.0:80
 
 **2. What proves SSH is active on port 22?**
@@ -53,6 +78,23 @@ Connectivity to the server via SSH (inbound rule) proves the port is active on 2
 **3. Did you find any unexpected open ports? Explain briefly.**
 
 I can see DNS port 53 open and also port number 68 and 323 for DNS, Systemd and Chronyd respectiviely.
+=======
+Write your answer here.
+
+---
+
+**2. What proves SSH is active on port 22?**
+
+Write your answer here.
+
+---
+
+**3. Did you find any unexpected open ports? Explain briefly.**
+
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # Task 2 — Service Health & Systemd Validation (Nginx)
 
@@ -64,6 +106,7 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
+<<<<<<< HEAD
 <img width="1445" height="426" alt="image" src="https://github.com/user-attachments/assets/557c09ff-e0cf-4f2a-92d7-030c8dcc4568" />
 
 
@@ -76,6 +119,23 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 <img width="1852" height="122" alt="image" src="https://github.com/user-attachments/assets/a369c3b2-d804-4f6b-a7c9-2b550c1a568b" />
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Output of `sudo nginx -t`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -83,6 +143,7 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
+<<<<<<< HEAD
 If Nginx fails to restart in production, the impact depends on how it is being used whether as a web server, reverse proxy, or load balancer. Nginx is the only entry point to your application:
 1. Users cannot access the website or API.
 2. Requests fail with connection errors or timeouts.
@@ -97,6 +158,17 @@ Backend application issue
 Port conflict
 
 If you have a backup then restore it.
+=======
+Write your answer here.
+
+---
+
+**2. What's your basic rollback plan?**
+
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # Task 3 — Logs & Request Trace
 
@@ -108,6 +180,7 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
+<<<<<<< HEAD
 <img width="1907" height="581" alt="image" src="https://github.com/user-attachments/assets/aaf3190a-6f42-49cc-bf47-d3ec15c8b183" />
 
 
@@ -120,6 +193,23 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 <img width="1437" height="202" alt="image" src="https://github.com/user-attachments/assets/af18f7bb-cb5d-4975-93fa-cd560888c408" />
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -130,6 +220,7 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
+<<<<<<< HEAD
 Yes I can see one error in the log and it's about.
 
 When Nginx is reloaded, the new master process inherits the listening sockets port 80 from the old master process instead of closing and reopening them.
@@ -145,6 +236,23 @@ Yes I can see them in plog entries. Below is the traffice flow status.
 tail -f /var/log/nginx/access.log
 
 127.0.0.1 - - [17/Jul/2026:05:35:10 +0000] "GET / HTTP/1.1" 200 612 "-" "curl/8.5.0"
+=======
+Write your answer here.
+
+---
+
+**2. If there were no errors, what does that indicate about the system?**
+
+Write your answer here.
+
+---
+
+**3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
+
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — System Resource Health Check (Capacity Red Flags)
 
@@ -156,6 +264,7 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
+<<<<<<< HEAD
 <img width="735" height="102" alt="image" src="https://github.com/user-attachments/assets/8ce4e841-6cfb-4a22-abe8-dd7e75184346" />
 
 
@@ -172,6 +281,29 @@ Assess server capacity and detect potential performance or failure risks.
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
 <img width="630" height="446" alt="image" src="https://github.com/user-attachments/assets/d7892641-4350-4f7c-ac7a-8827c4ddbbb7" />
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Output of `free -h`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — Output of `df -h`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -179,6 +311,7 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
+<<<<<<< HEAD
 I couldn't see any critical resource, but I can say RAM is a bit more consumed other than CPU and Disk.
 
 **2. What happens if disk becomes 100% full in a production server?**
@@ -188,6 +321,17 @@ Common impacts include
 Applications Stop Working
 Applications cannot write logs, temporary files, or uploaded data.
 Users may receive 500 Internal Server Error or similar failures.
+=======
+Write your answer here.
+
+---
+
+**2. What happens if disk becomes 100% full in a production server?**
+
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # Task 5 — Configuration & Deployment Verification
 
@@ -199,6 +343,7 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
+<<<<<<< HEAD
 <img width="777" height="290" alt="image" src="https://github.com/user-attachments/assets/a2cd8ee8-1120-486f-ac32-3370c9d33baf" />
 
 
@@ -211,6 +356,23 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 <img width="962" height="282" alt="image" src="https://github.com/user-attachments/assets/4ee5a9df-bea0-4a45-8a73-06d0c6451e91" />
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -218,6 +380,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
+<<<<<<< HEAD
 I can verify the deployment from multiple angles rather than relying on a single check.
 For Example:
 curl http://localhost/version
@@ -225,6 +388,11 @@ curl http://localhost/actuator/info
 Ex:
   "version": "2.5.1",
   "build": "20260717"
+=======
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # Task 6 — Nginx Configuration Failure Simulation
 
@@ -236,6 +404,7 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
+<<<<<<< HEAD
 <img width="1197" height="242" alt="image" src="https://github.com/user-attachments/assets/76545c6c-08b0-4d7c-983d-7c43f39fc735" />
 
 
@@ -246,6 +415,23 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
 <img width="971" height="662" alt="image" src="https://github.com/user-attachments/assets/8cae7d04-6014-4491-b25e-66bb26eb8376" />
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
+
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -253,6 +439,7 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
+<<<<<<< HEAD
 The configuration failure was caused by a syntax error in the Nginx configuration file. An extra closing brace (}) was present in the configuration, which made the file invalid. When I ran sudo nginx -t, Nginx detected the error and reported the exact file and line number where the issue occurred.
 
 **2. How did you fix the issue?**
@@ -263,6 +450,23 @@ I opened the Nginx configuration file, removed the incorrect syntax, and ensured
 **3. How can you avoid this kind of issue in real production systems?**
 
 To avoid this issue in production, I would always validate the configuration with sudo nginx -t before reloading or restarting Nginx. I would keep configuration files under version control, maintain backups of the last working configuration, and use code reviews for configuration changes. Whenever possible, I would test changes in a staging environment first and use systemctl reload nginx instead of a restart to apply validated configuration changes with minimal downtime.
+=======
+Write your answer here.
+
+---
+
+**2. How did you fix the issue?**
+
+Write your answer here.
+
+---
+
+**3. How can you avoid this kind of issue in real production systems?**
+
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # Task 7 — Web Application Failure Simulation
 
@@ -274,6 +478,7 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
+<<<<<<< HEAD
 <img width="1242" height="677" alt="image" src="https://github.com/user-attachments/assets/61f33525-df4f-48e6-985b-83403dd1a577" />
 
 
@@ -281,6 +486,17 @@ Simulate missing deployment content and recover the application safely.
 
 <img width="991" height="690" alt="image" src="https://github.com/user-attachments/assets/d0fd623b-a9ec-4922-8469-9aa0e164252a" />
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 ### Notes
 
@@ -288,6 +504,7 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
+<<<<<<< HEAD
 The application became unavailable because the Nginx configuration contained an error, which prevented Nginx from properly serving requests. As a result, requests to the application's public IP did not return a successful response. The issue was identified by checking the Nginx configuration and testing connectivity using curl.
 
 **2. How did you fix the issue and restore the application?**
@@ -297,6 +514,23 @@ I reviewed the Nginx configuration, corrected the configuration error, and valid
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
 To prevent similar issues in production, I would always validate the Nginx configuration using sudo nginx -t before applying any changes. I would maintain configuration files in version control, perform peer reviews for configuration updates, and test changes in a staging environment before deploying to production. I would also use monitoring and alerting tools to quickly detect failures and prefer systemctl reload nginx over a restart after successful configuration validation to minimize downtime.
+=======
+Write your answer here
+
+---
+
+**2. How did you fix the issue and restore the application?**
+
+Write your answer here.
+
+---
+
+**3. What steps would you take to prevent this kind of issue in real production systems?**
+
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # Task 8 — Security & Reliability Review
 
@@ -310,6 +544,7 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
+<<<<<<< HEAD
 SSH key-based authentication is more secure because it uses a unique public and private key pair instead of a password that can be guessed or stolen. The private key never leaves the user's device, making it much harder for attackers to gain unauthorized access. It also reduces the risk of brute-force attacks and password leaks.
 
 **2. Why should only required ports be open on a production server?**
@@ -327,6 +562,35 @@ Sharing secrets, API keys, passwords, or private SSH keys can allow unauthorized
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
 Unused cloud resources continue to consume resources and may incur unnecessary costs. Stopping or terminating them helps reduce expenses, improves security by eliminating unused systems, and keeps the cloud environment clean and easier to manage.
+=======
+Write your answer here.
+
+---
+
+**2. Why should only required ports be open on a production server?**
+
+Write your answer here.
+
+---
+
+**3. Why is it important for Nginx to be enabled on boot?**
+
+Write your answer here.
+
+---
+
+**4. What are the risks of sharing secrets, keys, or credentials publicly?**
+
+Write your answer here.
+
+---
+
+**5. Why should cloud resources be stopped or terminated when they are no longer needed?**
+
+Write your answer here.
+
+---
+>>>>>>> upstream/main
 
 # LinkedIn Post (Required)
 
@@ -336,6 +600,7 @@ Unused cloud resources continue to consume resources and may incur unnecessary c
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 https://www.linkedin.com/feed/update/urn:li:share:7483909250222661632/
 =======
@@ -348,6 +613,17 @@ https://www.linkedin.com/feed/update/urn:li:share:7483909250222661632/
 
 <img width="672" height="747" alt="image" src="https://github.com/user-attachments/assets/e95aedef-909b-43bb-b650-70d6bb05f062" />
 
+=======
+`Add your URL here`
+
+---
+
+#### Screenshot — Published LinkedIn post
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Submission Instructions
 
@@ -383,14 +659,25 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
+<<<<<<< HEAD
 - 🌐 DMI Official Website: https://pravinmishra.com/dmi  
 - 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
 - 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
 - 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
+=======
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+>>>>>>> upstream/main
 - ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
 - 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+>>>>>>> upstream/main

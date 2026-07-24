@@ -20,8 +20,14 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
+<<<<<<< HEAD
 <img width="295" height="201" alt="image" src="https://github.com/user-attachments/assets/6845a2fe-2d1f-4216-98c7-84b3d98ca504" />
 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 2 — Compare the Agent Configurations
 
@@ -33,6 +39,7 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
+<<<<<<< HEAD
 Three reasons converge on Haiku for that one agent specifically:
 
 1. The task is pattern-matching, not judgment. Look at its checklist in cost-optimizer.md:16-22 — CloudFront price class tiers, S3 storage class, TTL values, lifecycle rules. These are closed-form comparisons against known AWS pricing knobs ("is this PriceClass_All when PriceClass_100 would work?"). Compare that to security-auditor's job — judging whether an OIDC trust policy is scoped tightly enough or whether an IAM condition actually enforces least privilege requires more nuanced reasoning about attack surface, not just checklist lookup. Sonnet earns its keep there; it would be overkill here.
@@ -66,11 +73,29 @@ model: inherit at tf-writer.md:5 ties its capability to whatever the user is alr
 2. It's invoked synchronously, in-line with the user's own session, not as a background/parallel check. security-auditor and cost-optimizer get pinned models precisely because they're designed to run proactively and in parallel (via /infra-audit's fork) — they need a predictable quality/cost floor independent of whatever the user happens to be chatting with, since they may fire off without the user actively steering that invocation. tf-writer, by contrast, is driven directly from commands like /scaffold-terraform in the main flow. If the user has already escalated to a stronger model because the task at hand is gnarly (say, a multi-account OIDC setup), inheriting means tf-writer automatically gets that same reasoning boost for free — the CLAUDE.md author doesn't have to predict in advance how hard future Terraform-writing tasks will be and pick a model tier that might be wrong in either direction.
 
 So the split isn't arbitrary: inherit for the one agent whose output is unchecked-until-later and whose invocation rides along with the user's own conscious model choice; pinned for the two agents whose whole purpose is to be a reliable, cost-predictable, independently-running check — where a stable floor matters more than tracking the session's model.
+=======
+Add your answer here...
+
+---
+
+#### 2. Why does the security auditor NOT have Write in its tools list?
+
+Add your answer here...
+
+---
+
+#### 3. Why does the tf-writer use `inherit` instead of a specific model?
+
+Add your answer here...
+
+---
+>>>>>>> upstream/main
 
 ### Evidence
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
+<<<<<<< HEAD
 <img width="1807" height="682" alt="image" src="https://github.com/user-attachments/assets/aa8e7ea6-9504-4298-9099-929c33b7ca8c" />
 
 
@@ -78,6 +103,17 @@ So the split isn't arbitrary: inherit for the one agent whose output is unchecke
 
 <img width="1720" height="827" alt="image" src="https://github.com/user-attachments/assets/36dbafdc-4c8a-411d-a7ce-161c37b10971" />
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 3 — Run the Security Auditor
 
@@ -89,6 +125,7 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
+<<<<<<< HEAD
 <img width="1127" height="212" alt="image" src="https://github.com/user-attachments/assets/1c8d0011-5b57-4ee1-b7e4-fd8a7730c59e" />
 
 
@@ -96,6 +133,17 @@ Trigger the security auditor agent and analyze the generated security report for
 
 <img width="1527" height="867" alt="image" src="https://github.com/user-attachments/assets/0f73b8a7-861e-4519-a1ed-fc40f82ea4bb" />
 
+=======
+Add your screenshot here.
+
+---
+
+#### Screenshot 5 — Security audit report output
+
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Task 4 — Run the Cost Optimizer
 
@@ -107,8 +155,14 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
+<<<<<<< HEAD
 <img width="1527" height="867" alt="image" src="https://github.com/user-attachments/assets/709c4009-5261-4b81-8d02-eab43b1dc314" />
 
+=======
+Add your screenshot here.
+
+---
+>>>>>>> upstream/main
 
 # Submission Instructions
 
@@ -122,7 +176,13 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 https://github.com/muahmed471/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/assignment-04-subagents.md
+=======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
 
 # Completion Checklist
 
@@ -149,14 +209,25 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
+<<<<<<< HEAD
 - 🌐 DMI Official Website: https://pravinmishra.com/dmi  
 - 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
 - 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
 - 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
+=======
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+>>>>>>> upstream/main
 - ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
 - 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+>>>>>>> upstream/main
