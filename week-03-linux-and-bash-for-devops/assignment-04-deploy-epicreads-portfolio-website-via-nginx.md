@@ -33,7 +33,8 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-<img width="646" height="237" alt="image" src="https://github.com/user-attachments/assets/b7a1fac2-2be0-4830-bc9c-62fce51ae6ad" />
+<img width="772" height="317" alt="image" src="https://github.com/user-attachments/assets/187127b7-d2cc-43ab-a743-d22ee86a50da" />
+
 
 
 
@@ -47,9 +48,8 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-Add your screenshot here.
+<img width="762" height="432" alt="image" src="https://github.com/user-attachments/assets/eeb8fe53-bf6f-4971-8e88-4e61f906022d" />
 
----
 
 # Task 3 — Deploy Website via Nginx
 
@@ -61,15 +61,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-Add your screenshot here.
+<img width="802" height="260" alt="image" src="https://github.com/user-attachments/assets/2422473b-1af4-4554-a7b0-2a3425b63797" />
 
----
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-Add your screenshot here.
+<img width="1212" height="80" alt="image" src="https://github.com/user-attachments/assets/a318cba4-3633-40d2-9680-4e903b936bd6" />
 
----
 
 # Task 4 — Verify Website is Live
 
@@ -81,15 +79,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+<img width="761" height="57" alt="image" src="https://github.com/user-attachments/assets/d416f020-d7b4-4d05-955f-377c95bad1f7" />
 
----
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-Add your screenshot here.
+<img width="1447" height="831" alt="image" src="https://github.com/user-attachments/assets/b195198e-ae8e-4d8c-a8cb-8bbac4df171f" />
 
----
 
 # Task 5 — Mini Real DevOps Operational Check
 
@@ -101,15 +97,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+<img width="802" height="91" alt="image" src="https://github.com/user-attachments/assets/ae275d54-dd55-4ec4-8e63-0a164e47d00a" />
 
----
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
+<img width="825" height="287" alt="image" src="https://github.com/user-attachments/assets/399502f9-3d10-4703-a286-1a1dc0425a69" />
 
----
 
 # LinkedIn Post (Mandatory)
 
@@ -119,15 +113,12 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-react-nginx-activity-7486297387897004033-KbuF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+<img width="697" height="887" alt="image" src="https://github.com/user-attachments/assets/a8eb0d79-e51f-42ff-b499-c8811efa06e9" />
 
----
 
 # Submission Instructions
 
