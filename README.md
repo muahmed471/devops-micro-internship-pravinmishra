@@ -133,7 +133,7 @@ Week 01 → Success Mindset
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/p/774c9fe510b3?postPublishedType=initial |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:share:7478535518704758785/ | https://medium.com/@muahmed471/i-stopped-chasing-productivity-and-started-building-a-system-23eca060e198?postPublishedType=repub |
 | 02 | Agentic AI with Claude Code | ✅ Started | 🔄 In Progress | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux & Bash for DevOps | ✅ Started | 🔄 In Progress | https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-react-nginx-activity-7486297387897004033-KbuF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
