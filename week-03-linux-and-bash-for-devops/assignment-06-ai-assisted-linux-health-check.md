@@ -25,9 +25,8 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+<img width="1105" height="836" alt="image" src="https://github.com/user-attachments/assets/d1a0f33c-a5f9-403b-8244-5f0caa7a8196" />
 
----
 
 ### Notes
 
@@ -35,21 +34,16 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
-
----
+By running systemctl status nginx command provides the status as active (running) proves that Nginx is running. 
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+Running the command ss -tuln | grep :80 (or netstat -tuln | grep :80) shows that port 80 is in the LISTEN state. This confirms that the server is listening for incoming HTTP traffic.
 
----
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
-
----
+Capturing a healthy baseline helps verify that the system is functioning correctly before any changes are made. It provides a reference point to compare against after simulating an incident, making it easier to identify issues, troubleshoot problems, and confirm that the system has been successfully restored.
 
 # Task 2 — Create Project Context and Safety Rules in CLAUDE.md
 
@@ -61,9 +55,8 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+<img width="1702" height="837" alt="image" src="https://github.com/user-attachments/assets/8abaf325-19b5-47dc-8e7c-be1762aa53a0" />
 
----
 
 ### Notes
 
