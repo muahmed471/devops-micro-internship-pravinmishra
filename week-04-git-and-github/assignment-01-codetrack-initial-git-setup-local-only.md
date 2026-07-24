@@ -20,15 +20,13 @@ Create CodeTrack, enter the project directory, and initialize a Git repository.
 
 #### Screenshot 1 — Output of `git init`
 
-Add your screenshot here.
+<img width="767" height="382" alt="image" src="https://github.com/user-attachments/assets/b3cb2d5d-81b8-4ee7-bbb4-e2b9ff3e1be7" />
 
----
 
 #### Screenshot 2 — Output of `ls -a` where `.git` is visible
 
-Add your screenshot here.
+<img width="615" height="112" alt="image" src="https://github.com/user-attachments/assets/d5639a4d-5e30-4f08-99b7-4477b2c31572" />
 
----
 
 # Task 2 — Configure Git Identity Locally (Repository-Specific)
 
@@ -40,9 +38,8 @@ Set the Git identity only for CodeTrack using repository-level local configurati
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<img width="600" height="222" alt="image" src="https://github.com/user-attachments/assets/5f1e024b-b626-422d-a0da-a1fc2008eb1b" />
 
----
 
 # Task 3 — Configure Git Identity Globally
 
@@ -54,9 +51,8 @@ Set a global Git identity for all repositories on this machine and verify the co
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<img width="617" height="147" alt="image" src="https://github.com/user-attachments/assets/7a592ed7-d854-4a1d-a864-d3fc5172cf02" />
 
----
 
 # Submission Instructions
 
