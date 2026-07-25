@@ -20,15 +20,12 @@ Confirm that Git works and that you are inside the correct CodeTrack repository.
 
 #### Screenshot 1 — Output of `pwd`
 
-Add your screenshot here.
-
----
+<img width="617" height="61" alt="image" src="https://github.com/user-attachments/assets/d1955c45-6729-4f10-ab3d-4616ce06b6c1" />
 
 #### Screenshot 2 — Output of `git status`
 
-Add your screenshot here.
+<img width="602" height="145" alt="image" src="https://github.com/user-attachments/assets/12d57a43-ddcc-4658-bac0-bf82e287b64e" />
 
----
 
 # Task 2 — Create `index.html` and `style.css`
 
@@ -40,9 +37,8 @@ Create the two starter UI files and confirm that both files exist.
 
 #### Screenshot 3 — Commands and output showing `index.html` and `style.css` in the directory listing
 
-Add your screenshot here.
+<img width="635" height="56" alt="image" src="https://github.com/user-attachments/assets/e5e208d9-b746-4cbc-90cc-6ed6440d1201" />
 
----
 
 # Task 3 — Add Starter Content
 
@@ -54,9 +50,9 @@ Add the provided starter HTML and CSS content to the local CodeTrack files.
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`; one screenshot is acceptable if both files are visible
 
-Add your screenshot here.
+<img width="1657" height="1087" alt="image" src="https://github.com/user-attachments/assets/368bb93d-9701-40cd-b8e8-410e8f0bdcb5" />
+<img width="1187" height="1100" alt="image" src="https://github.com/user-attachments/assets/ffae4a8f-9ec9-4fba-8085-039125991593" />
 
----
 
 # Task 4 — Track and Stage Files Correctly
 
@@ -68,15 +64,13 @@ Identify the untracked files, stage them intentionally, and verify the staging a
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+<img width="762" height="222" alt="image" src="https://github.com/user-attachments/assets/8596c5f9-4580-4bcd-84d7-54b8432b2021" />
 
----
 
 #### Screenshot 6 — Output of `git status` showing both files staged under Changes to be committed
 
-Add your screenshot here.
+<img width="762" height="225" alt="image" src="https://github.com/user-attachments/assets/6d1ca6dc-2f33-4cb5-9028-b77611b5c647" />
 
----
 
 # Task 5 — Create the First Commit (Clean Initial Commit)
 
@@ -88,15 +82,13 @@ Create the first commit with the required meaningful message and verify the repo
 
 #### Screenshot 7 — Output of `git commit -m "Initial UI scaffold: add index.html and style.css"`
 
-Add your screenshot here.
+<img width="792" height="117" alt="image" src="https://github.com/user-attachments/assets/4ee42d7e-207d-43ff-a6af-fae59f293275" />
 
----
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+<img width="701" height="71" alt="image" src="https://github.com/user-attachments/assets/58703c95-6716-4ced-870d-eb7f61354222" />
 
----
 
 # Task 6 — Modify `index.html` and Create a Second Commit
 
@@ -108,21 +100,18 @@ Complete a controlled homepage change and record it as a separate, meaningful co
 
 #### Screenshot 9 — Browser showing the updated page with visible Student Name and Group Name changes
 
-Add your screenshot here.
+<img width="1595" height="1092" alt="image" src="https://github.com/user-attachments/assets/c1d2dd96-cae4-41bc-976c-0d694e7e9e83" />
 
----
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+<img width="717" height="197" alt="image" src="https://github.com/user-attachments/assets/c2872e73-7687-454e-aee7-0f9c2f0ca9e2" />
 
----
 
 #### Screenshot 11 — Output of `git commit -m "Update homepage content: heading, tagline, CTA button"`
 
-Add your screenshot here.
+<img width="695" height="117" alt="image" src="https://github.com/user-attachments/assets/7432fc3c-5d73-4c46-9381-a1a3cadea85b" />
 
----
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
