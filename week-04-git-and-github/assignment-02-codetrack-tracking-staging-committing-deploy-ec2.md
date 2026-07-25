@@ -20,15 +20,13 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+<img width="605" height="121" alt="image" src="https://github.com/user-attachments/assets/ba3e285a-3249-4f37-abe7-9da7b4d0c03f" />
 
----
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
+<img width="635" height="177" alt="image" src="https://github.com/user-attachments/assets/e30a0447-70d7-4754-99d1-48f514ce5c2d" />
 
----
 
 # Task 2 — Create index.html and style.css
 
@@ -40,9 +38,8 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+<img width="607" height="107" alt="image" src="https://github.com/user-attachments/assets/c5535add-c3ba-432b-94d9-773d4deb2251" />
 
----
 
 # Task 3 — Add Starter Content
 
@@ -54,9 +51,9 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+<img width="1631" height="861" alt="image" src="https://github.com/user-attachments/assets/aa3001c4-91bf-469a-bd91-369a1c517342" />
+<img width="1877" height="846" alt="image" src="https://github.com/user-attachments/assets/a9f253e7-637a-4086-bd21-356ea56f3c92" />
 
----
 
 # Task 4 — Track and Stage Files Correctly
 
@@ -68,15 +65,13 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+<img width="730" height="261" alt="image" src="https://github.com/user-attachments/assets/452c12cf-4d36-49f4-ac12-613075183c07" />
 
----
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+<img width="670" height="242" alt="image" src="https://github.com/user-attachments/assets/967cda79-81e8-47a6-9379-37f2f0f4db44" />
 
----
 
 # Task 5 — Create the First Commit (Clean Initial Commit)
 
@@ -88,15 +83,13 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+<img width="757" height="122" alt="image" src="https://github.com/user-attachments/assets/f6ba8693-6bf2-4e9d-b197-881d7d402c6c" />
 
----
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+<img width="677" height="87" alt="image" src="https://github.com/user-attachments/assets/599f1010-bc1d-4e0d-b41b-7410ec23d1df" />
 
----
 
 # Task 6 — Modify index.html and Create a Second Commit
 
@@ -108,27 +101,23 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+<img width="1731" height="837" alt="image" src="https://github.com/user-attachments/assets/71ec24fb-52da-474b-b7b0-051fe4d59506" />
 
----
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+<img width="642" height="217" alt="image" src="https://github.com/user-attachments/assets/d3fd6171-356b-4b78-afae-2babdcaf3de6" />
 
----
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+<img width="936" height="347" alt="image" src="https://github.com/user-attachments/assets/85da5eb4-aa01-4e47-80aa-31c623816649" />
 
----
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+<img width="732" height="121" alt="image" src="https://github.com/user-attachments/assets/d746388a-928b-4dbb-9e0a-476aa057c19c" />
 
----
 
 # Task 7 — Deploy to EC2 with Nginx (Static Website)
 
@@ -156,9 +145,8 @@ Add your screenshot here.
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
+<img width="1716" height="867" alt="image" src="https://github.com/user-attachments/assets/5648b179-1fbe-4195-894b-38e6d43b4ec1" />
 
----
 
 # LinkedIn Post (Required)
 
