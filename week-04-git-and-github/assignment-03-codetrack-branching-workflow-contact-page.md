@@ -348,7 +348,7 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
 =======
 >>>>>>> upstream/main
-- [ ] No sensitive data exposed
+- [x] No sensitive data exposed
 
 ---
 
