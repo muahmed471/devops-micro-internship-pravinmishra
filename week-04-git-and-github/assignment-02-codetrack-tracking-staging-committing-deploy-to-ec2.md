@@ -187,18 +187,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] CodeTrack repository verified with `git status`
-- [ ] `index.html` and `style.css` created and populated
-- [ ] Starter files staged and committed in the first commit
-- [ ] Student Name and Group Name updated in `index.html`
-- [ ] Second controlled commit created
-- [ ] `git log --oneline` shows at least two commits
-- [ ] Nginx is active on the EC2 instance
-- [ ] `curl` returns HTTP 200 OK
-- [ ] CodeTrack loads through the EC2 public IP
-- [ ] All 15 required screenshots included
-- [ ] Mandatory LinkedIn post completed and linked
-- [ ] No sensitive data exposed
+- [x] CodeTrack repository verified with `git status`
+- [x] `index.html` and `style.css` created and populated
+- [x] Starter files staged and committed in the first commit
+- [x] Student Name and Group Name updated in `index.html`
+- [x] Second controlled commit created
+- [x] `git log --oneline` shows at least two commits
+- [x] Nginx is active on the EC2 instance
+- [x] `curl` returns HTTP 200 OK
+- [x] CodeTrack loads through the EC2 public IP
+- [x] All 15 required screenshots included
+- [x] Mandatory LinkedIn post completed and linked
+- [x] No sensitive data exposed
 
 ---
 
