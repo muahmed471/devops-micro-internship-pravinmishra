@@ -43,6 +43,8 @@ Start from a clean default branch and confirm that you are working in the correc
 Start from a clean default branch (`main` or `master`) and confirm the repository status.
 
 ### Evidence
+<img width="647" height="222" alt="image" src="https://github.com/user-attachments/assets/0f3386e3-4877-4267-b491-c7b1922f661c" />
+
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 <<<<<<< HEAD
@@ -50,9 +52,8 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 =======
 >>>>>>> upstream/main
 
-Add your screenshot here.
+<img width="647" height="222" alt="image" src="https://github.com/user-attachments/assets/17d941d1-ede3-406a-a8d0-ee2407784d5d" />
 
----
 
 # Task 2 — Create and Switch to a Feature Branch
 
@@ -72,9 +73,8 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 >>>>>>> upstream/main
 
-Add your screenshot here.
+<img width="810" height="217" alt="image" src="https://github.com/user-attachments/assets/d7957176-ab5a-469f-8e00-97b5c8dc88e9" />
 
----
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,9 +100,8 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-Add your screenshot here.
+<img width="775" height="215" alt="image" src="https://github.com/user-attachments/assets/5cba23fc-7123-425e-9d1a-1c81361ab2cd" />
 
----
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,15 +113,13 @@ Add your screenshot here.
 #### Screenshot 4 — Output of `git commit`
 >>>>>>> upstream/main
 
-Add your screenshot here.
+<img width="752" height="112" alt="image" src="https://github.com/user-attachments/assets/b221bbc4-653b-4842-bb34-b82a63c2f18b" />
 
----
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-Add your screenshot here.
+<img width="815" height="97" alt="image" src="https://github.com/user-attachments/assets/1863fe4a-cc82-46be-8260-d055a9f3bc91" />
 
----
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,9 +145,8 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-Add your screenshot here.
+<img width="812" height="206" alt="image" src="https://github.com/user-attachments/assets/6ebbb157-0aee-497b-ac04-550177a6845c" />
 
----
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,15 +158,14 @@ Add your screenshot here.
 #### Screenshot 7 — Output of `git commit`
 >>>>>>> upstream/main
 
-Add your screenshot here.
+<img width="851" height="132" alt="image" src="https://github.com/user-attachments/assets/be5f65b5-34cb-4aa8-8039-37a5e046e324" />
 
----
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-Add your screenshot here.
+<img width="1895" height="1032" alt="image" src="https://github.com/user-attachments/assets/9fb3f18c-7df7-48da-b44c-dfda35949afa" />
 
----
+
 
 # Task 5 — Verify Isolation (Prove the Default Branch Is Unchanged)
 
@@ -196,9 +191,8 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 =======
 >>>>>>> upstream/main
 
-Add your screenshot here.
+<img width="827" height="187" alt="image" src="https://github.com/user-attachments/assets/2bcfcbed-f7ba-4e4f-8a96-8b1d5277d817" />
 
----
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,9 +204,8 @@ Add your screenshot here.
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 >>>>>>> upstream/main
 
-Add your screenshot here.
+<img width="1716" height="867" alt="Assigment02-image14" src="https://github.com/user-attachments/assets/984e1b56-d00f-4a57-a74e-2eb1553c71f6" />
 
----
 
 # Task 6 — Merge the Feature Branch into the Default Branch
 
@@ -232,21 +225,18 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-Add your screenshot here.
+<img width="727" height="292" alt="image" src="https://github.com/user-attachments/assets/7ed97bb3-3876-4f57-afea-fef6795e6bb8" />
 
----
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-Add your screenshot here.
+<img width="617" height="115" alt="image" src="https://github.com/user-attachments/assets/f3aa43cc-976b-4191-b0eb-40ec134240b1" />
 
----
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-Add your screenshot here.
+<img width="1897" height="1030" alt="image" src="https://github.com/user-attachments/assets/e9075fc2-2504-4510-b20d-4bef994b6bc8" />
 
----
 
 # Task 7 — Inspect History (Graph View)
 
@@ -292,7 +282,8 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-Add your screenshot here.
+<img width="857" height="315" alt="image" src="https://github.com/user-attachments/assets/19ae01d3-1c7b-4dc9-8270-5adf2444f81b" />
+
 <<<<<<< HEAD
 >>>>>>> b5cecb5 (Split week-04 GitHub assignment into per-topic files, add AI safety-net assignment)
 =======
