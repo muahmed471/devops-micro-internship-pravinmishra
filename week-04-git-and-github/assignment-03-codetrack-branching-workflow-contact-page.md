@@ -321,18 +321,18 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-- [ ] Started from a clean `main` or `master` branch
-- [ ] Created and used `feature/contact-page`
-- [ ] Added `contact.html` with the exact required content
-- [ ] Created the atomic Contact page commit
-- [ ] Added the Contact Page link to `index.html`
-- [ ] Created the separate atomic navigation commit
-- [ ] Verified that the default branch was unchanged before merging
-- [ ] Merged `feature/contact-page` successfully
-- [ ] Verified that `contact.html` exists after merging
-- [ ] Verified that the Contact Page link opens correctly
-- [ ] Graph history inspected and captured
-- [ ] Screenshots 1–14 included and readable
+- [x] Started from a clean `main` or `master` branch
+- [x] Created and used `feature/contact-page`
+- [x] Added `contact.html` with the exact required content
+- [x] Created the atomic Contact page commit
+- [x] Added the Contact Page link to `index.html`
+- [x] Created the separate atomic navigation commit
+- [x] Verified that the default branch was unchanged before merging
+- [x] Merged `feature/contact-page` successfully
+- [x] Verified that `contact.html` exists after merging
+- [x] Verified that the Contact Page link opens correctly
+- [x] Graph history inspected and captured
+- [x] Screenshots 1–14 included and readable
 =======
 =======
 >>>>>>> upstream/main
