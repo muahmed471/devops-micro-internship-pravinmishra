@@ -73,15 +73,7 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
-<<<<<<< HEAD
 https://github.com/muahmed471/Ultimate-Agentic-DevOps-with-Claude-Code
-=======
-
-`Add your URL here`
-
-https://github.com/muahmed471/Ultimate-Agentic-DevOps-with-Claude-Code
-
->>>>>>> ee02420 (Replace blank-underscore placeholders with explicit "Add your URL here")
 
 # Completion Checklist
 

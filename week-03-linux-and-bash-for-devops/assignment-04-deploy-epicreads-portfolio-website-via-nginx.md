@@ -113,13 +113,7 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD
 https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-react-nginx-activity-7486297387897004033-KbuF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c
-=======
-`Add your URL here`
-
----
->>>>>>> upstream/main
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 

@@ -33,13 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-<<<<<<< HEAD
 I always passoniate about my goals either it's a career, learning, money or descipline. I believe in working on my ethics don't bother who agree and who won't.
-=======
-Add your answer here...
-
----
->>>>>>> upstream/main
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
 
@@ -59,19 +53,11 @@ Write each truth in this format:
 
 ### Truth
 
-<<<<<<< HEAD
 Fail fast mentality.
 
 ### Evidence from my life
 
 I spent two days to build a perfect project to present to my client. It failed due to environment mismatches, then I switched to building small and robust projects this allowed me to catch the errors early and finish the project on time.
-=======
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
->>>>>>> upstream/main
 
 ---
 
@@ -79,41 +65,21 @@ Add your answer here...
 
 ### Truth
 
-<<<<<<< HEAD
 Consistency is more important.
 
 ### Evidence from my life
 
 Instead of trying to crash diet, I started walking 20minutes every morning. After six months, I felt significantly more energitic amd had developed a habit that felt effortless rather than like a chore.
-=======
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
-
----
->>>>>>> upstream/main
 
 ## Truth #3
 
 ### Truth
 
-<<<<<<< HEAD
 Vulnerability often builds stronger connections than perfection does.
 
 ### Evidence from my life
 
 I was nervous about telling my team I didn't understand a new package update. When I finally spoke up. other colleagues admitted they were also confused. We ended up having a productive training session that brought us closer together.
-=======
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
-
----
->>>>>>> upstream/main
 
 # Assignment 3. What does your 2.0 version look like?
 
