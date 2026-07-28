@@ -64,12 +64,12 @@ Set a global Git identity for all repositories on this machine and verify the co
 
 # Completion Checklist
 
-- [ ] CodeTrack initialized as a Git repository
-- [ ] `.git` folder visible (Screenshot 2)
-- [ ] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [ ] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [ ] All four required screenshots included and readable
-- [ ] No sensitive data exposed
+- [x] CodeTrack initialized as a Git repository
+- [x] `.git` folder visible (Screenshot 2)
+- [x] Local `user.name` and `user.email` configured and verified (Screenshot 3)
+- [x] Global `user.name` and `user.email` configured and verified (Screenshot 4)
+- [x] All four required screenshots included and readable
+- [x] No sensitive data exposed
 
 ---
 
