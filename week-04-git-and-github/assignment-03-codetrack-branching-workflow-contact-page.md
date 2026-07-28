@@ -235,7 +235,8 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-<img width="1897" height="1030" alt="image" src="https://github.com/user-attachments/assets/e9075fc2-2504-4510-b20d-4bef994b6bc8" />
+<img width="1892" height="1077" alt="image" src="https://github.com/user-attachments/assets/326074ad-39ac-470e-8354-54ff22a40c7a" />
+
 
 
 # Task 7 — Inspect History (Graph View)
