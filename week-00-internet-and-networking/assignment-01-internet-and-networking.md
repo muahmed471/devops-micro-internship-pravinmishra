@@ -214,11 +214,15 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c
+https://www.linkedin.com/posts/muneer-ahmed-25322b206_assignment-week00-activity-7488142536155512832-x05o?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c
 
 
 ```text
+
 This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://lnkd.in/dd9BrTr5). You can start your DevOps journey by joining this [Discord community](https://lnkd.in/drHrX4EC) ( https://lnkd.in/drHrX4EC ).
+🙏 We extend our heartfelt appreciation to our outstanding co-mentors— Anjana Muthunayake (Lead Co-Mentor) and Joy Ukpabi. Your continuous support, approachability, and steadfast commitment to helping us succeed have made our first week a remarkable experience. We are grateful for your guidance and encouragement, and we deeply value the positive impact you have had on our learning and professional development.
 ```
 
 ---
@@ -227,7 +231,12 @@ This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. 
 
 Paste the full text of your LinkedIn post here:
 
-P.S. This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist. https://dmi.pravinmishra.com/
+
+This post is part of the FREE DevOps for Beginners Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
+
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://lnkd.in/dd9BrTr5). You can start your DevOps journey by joining this [Discord community](https://lnkd.in/drHrX4EC) ( https://lnkd.in/drHrX4EC ).
+🙏 We extend our heartfelt appreciation to our outstanding co-mentors— Anjana Muthunayake (Lead Co-Mentor) and Joy Ukpabi. Your continuous support, approachability, and steadfast commitment to helping us succeed have made our first week a remarkable experience. We are grateful for your guidance and encouragement, and we deeply value the positive impact you have had on our learning and professional development.
 
 # Reflection – Week 0
 
