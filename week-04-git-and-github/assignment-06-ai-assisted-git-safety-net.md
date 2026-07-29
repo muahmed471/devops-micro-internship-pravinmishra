@@ -335,11 +335,11 @@ https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-git-githooks-activi
 
 Add 3-5 bullet points on what you learned this week.
 
-Learned how to create and configure a custom Git pre-commit hook to prevent committing secret-like patterns and oversized files.
-Understood the difference between fixed-rule validation (Git hooks) and AI-assisted code review using a read-only /pr-ready skill.
-Practiced creating feature branches, rebasing with upstream changes, and following a professional Pull Request workflow.
-Improved understanding of secure development practices by validating changes before committing and submitting code.
-Recognized the importance of reviewing AI-generated suggestions instead of accepting them without verification.
+1. Learned how to create and configure a custom Git pre-commit hook to prevent committing secret-like patterns and oversized files.
+2. Understood the difference between fixed-rule validation (Git hooks) and AI-assisted code review using a read-only /pr-ready skill.
+3. Practiced creating feature branches, rebasing with upstream changes, and following a professional Pull Request workflow.
+4. Improved understanding of secure development practices by validating changes before committing and submitting code.
+5. Recognized the importance of reviewing AI-generated suggestions instead of accepting them without verification.
 
 # Submission Instructions
 
