@@ -34,17 +34,14 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+<img width="961" height="157" alt="image" src="https://github.com/user-attachments/assets/4e19141b-7ecd-475b-aa1b-395a8037f409" />
 
----
 
 ### Notes
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
-
----
+A dedicated branch isolates your work from the stable main branch, allowing you to make changes, test them, and submit them for review without affecting the main codebase. It also makes collaboration easier by keeping each feature or fix in its own branch, simplifying code reviews, rebasing, and merge conflict resolution. Once the changes are approved, the branch can be safely merged into main, ensuring the main branch remains clean and stable.
 
 # Task 1 — Stage a Change With Realistic Risk
 >>>>>>> upstream/main
@@ -80,17 +77,14 @@ Stage it with `git add`.
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 >>>>>>> upstream/main
 
-Add your screenshot here.
+<img width="1202" height="281" alt="image" src="https://github.com/user-attachments/assets/f6524a2a-7dfe-47ae-a65f-cefbc7c2d1a7" />
 
----
 
 ### Notes
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
-
----
+A fake key is used to teach the correct Git workflow without exposing sensitive credentials. Real API keys, SSH keys, or access tokens should never be committed to a Git repository because they can be misused if the repository is public or shared. Using a dummy key allows you to practice handling secrets safely, recognize sensitive data, and learn how to avoid accidentally leaking credentials. This reinforces security best practices while ensuring no real accounts or services are put at risk.
 
 # Task 2 — Write a Real Git Pre-Commit Hook
 
@@ -98,7 +92,6 @@ Add your answer here.
 
 Create a tracked, shareable pre-commit hook that blocks a commit containing secret-like patterns or files over 1MB.
 
-<<<<<<< HEAD
 ### What to do
 
 Create `hooks/pre-commit` (tracked in the repo, not `.git/hooks/`, so teammates get it too):
@@ -135,36 +128,32 @@ Point Git at the tracked hooks folder and make it executable:
 chmod +x hooks/pre-commit
 git config core.hooksPath hooks
 ```
-
-=======
->>>>>>> upstream/main
+upstream/main
 ### Evidence
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-Add your screenshot here.
+<img width="1467" height="742" alt="image" src="https://github.com/user-attachments/assets/7f921797-0f96-4f51-b07a-c01c394531cd" />
 
----
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+<img width="1337" height="137" alt="image" src="https://github.com/user-attachments/assets/9b7820af-6fa2-4a1e-9083-b42810b4c9c5" />
 
----
 
 ### Notes
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
-
----
+hooks/pre-commit is tracked in the repository so the hook can be shared with all contributors and version-controlled along with the project. The .git/hooks/ directory is local to each developer's Git repository and is not committed or shared. By keeping the hook in a tracked hooks/ directory and configuring core.hooksPath, every team member can use the same pre-commit checks, ensuring consistent validation and security across the project.
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+A Git pre-commit hook intercepts a commit before it is recorded in the Git repository. It can block the commit if it detects problems such as secret keys, large files, or formatting issues.
 
----
+A PreToolUse hook intercepts tool execution in an AI workflow before the tool is allowed to run. It can validate, restrict, or deny the requested action based on predefined rules.
+
+Both act as preventive gatekeepers. They perform validation before an action is executed, enforce policies automatically, and stop unsafe or invalid operations before they can cause problems. The difference is that a Git pre-commit hook protects the source code repository, while a PreToolUse hook protects AI tool execution and system interactions.
 
 # Task 3 — Prove the Hook Blocks the Risky Commit
 
@@ -176,23 +165,18 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-Add your screenshot here.
+<img width="1151" height="195" alt="image" src="https://github.com/user-attachments/assets/63c29901-eeda-4505-8396-79b9739ffe0e" />
 
----
 
 ### Notes
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
-
----
+It matched because the fake key used the AWS Access Key ID pattern, which starts with AKIA followed by 16 uppercase letters or numbers. The grep -E command uses this regular expression to detect strings that resemble AWS access keys or private key headers and blocks the commit if a match is found.
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
-
----
+No. This hook only detects secrets that match the specific patterns defined in its regular expression, such as AWS access keys beginning with AKIA or private key headers. If a secret were stored in a variable with a different format or a custom token that doesn't match these patterns, the hook would not detect it. This demonstrates the limitation of fixed rule-based detection: it is effective for known patterns but cannot identify every possible secret. In real-world projects, teams often combine pattern-based scanning with entropy-based detection and dedicated secret-scanning tools such as GitHub Secret Scanning, Gitleaks, or TruffleHog for more comprehensive protection.
 
 # Task 4 — Build the `/pr-ready` Skill
 
