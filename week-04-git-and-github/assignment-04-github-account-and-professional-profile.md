@@ -20,15 +20,13 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
 
-Add your screenshot here.
+<img width="1891" height="1087" alt="image" src="https://github.com/user-attachments/assets/f7988bb5-b60f-46e0-9743-5cf9a7ef4e2e" />
 
----
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
+<img width="1900" height="1070" alt="image" src="https://github.com/user-attachments/assets/b3833b2f-a68a-4ad0-b06a-1c62b56a6636" />
 
----
 
 # Task 2 — Explore GitHub Like a Professional
 
@@ -40,21 +38,18 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
+<img width="1902" height="1085" alt="image" src="https://github.com/user-attachments/assets/d66a92be-dc20-4d04-b0be-4b8d4cfa8a2e" />
 
----
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-Add your screenshot here.
+<img width="1435" height="1062" alt="image" src="https://github.com/user-attachments/assets/e8fc5a3a-86b8-493a-964c-addec248a08e" />
 
----
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
+<img width="1887" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a427316-40a4-4a97-8ed2-fc9dc512a6ce" />
 
----
 
 # Task 3 — Update Your GitHub Profile (Professional Setup)
 
@@ -66,9 +61,8 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-Add your screenshot here.
+<img width="1886" height="1086" alt="image" src="https://github.com/user-attachments/assets/cdea8c2b-1ddb-455e-a93d-7143e6f1a686" />
 
----
 
 # Submission Instructions
 
@@ -82,19 +76,17 @@ Add your screenshot here.
 
 Paste your GitHub profile URL here:
 
-`Add your URL here`
-
----
+https://github.com/muahmed471
 
 # Completion Checklist
 
-- [ ] GitHub account created or existing account confirmed (Screenshot 1)
-- [ ] Trending repositories explored (Screenshot 3)
-- [ ] At least one repository starred (Screenshot 4)
-- [ ] At least one public repository forked (Screenshot 5)
-- [ ] Professional bio added to your GitHub profile (Screenshot 6)
-- [ ] GitHub profile URL included
-- [ ] No passwords, codes, or authentication secrets exposed
+- [x] GitHub account created or existing account confirmed (Screenshot 1)
+- [x] Trending repositories explored (Screenshot 3)
+- [x] At least one repository starred (Screenshot 4)
+- [x] At least one public repository forked (Screenshot 5)
+- [x] Professional bio added to your GitHub profile (Screenshot 6)
+- [x] GitHub profile URL included
+- [x] No passwords, codes, or authentication secrets exposed
 
 ---
 
