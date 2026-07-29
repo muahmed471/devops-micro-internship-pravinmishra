@@ -20,15 +20,13 @@ Confirm that you have a working GitHub account and can access the GitHub dashboa
 
 #### Screenshot 1 — GitHub dashboard or Home page showing that you are signed in, with your username visible
 
-Add your screenshot here.
+<img width="1891" height="1087" alt="Assigment04-Screenshot1" src="https://github.com/user-attachments/assets/e02da076-994f-42f6-9d0d-f108e0e090d1" />
 
----
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here if included.
+<img width="1886" height="1107" alt="Assigment04-Screenshot2" src="https://github.com/user-attachments/assets/a7d2d3e5-2c6d-48a3-8cf2-5669dcd62ba1" />
 
----
 
 # Task 2 — Explore GitHub Like a Professional
 
@@ -40,21 +38,18 @@ Explore, search, star, and fork public repositories using GitHub’s browser int
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
+<img width="1902" height="1085" alt="Assigment04-Screenshot3" src="https://github.com/user-attachments/assets/ce7217a1-4d5b-41a0-b9d1-8d84f5297be7" />
 
----
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state or another clear Starred indicator
 
-Add your screenshot here.
+<img width="1435" height="1062" alt="Assigment04-Screenshot4" src="https://github.com/user-attachments/assets/584f37fb-c27c-4d81-a6e1-9cbe51dd2f0f" />
 
----
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
+<img width="1886" height="1107" alt="Assigment04-Screenshot2" src="https://github.com/user-attachments/assets/92729721-06af-4398-abe8-c9dd456c41fd" />
 
----
 
 # Task 3 — Update Your GitHub Profile (Professional Setup)
 
@@ -66,17 +61,14 @@ Create a credible and professional GitHub profile that teammates and recruiters 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio; include optional profile details if you added them
 
-Add your screenshot here.
+<img width="1886" height="1107" alt="Assigment04-Screenshot2" src="https://github.com/user-attachments/assets/a9e4f9a1-b89a-4ceb-90da-8c9fcf40a202" />
 
----
 
 # GitHub Profile URL
 
 Paste your GitHub profile URL here:
 
-`Add your URL here`
-
----
+https://github.com/muahmed471
 
 # Submission Instructions
 
@@ -89,17 +81,17 @@ Paste your GitHub profile URL here:
 
 # Completion Checklist
 
-- [ ] GitHub account created or existing account confirmed
-- [ ] Email address verified
-- [ ] GitHub dashboard accessible
-- [ ] Trending repositories explored
-- [ ] At least one repository starred
-- [ ] At least one public repository forked
-- [ ] Forked repository visible under your account
-- [ ] Professional bio added to your GitHub profile
-- [ ] Profile information reviewed for accuracy and professionalism
-- [ ] Screenshots 1 and 3–6 included and readable
-- [ ] No passwords, codes, or authentication secrets exposed
+- [x] GitHub account created or existing account confirmed
+- [x] Email address verified
+- [x] GitHub dashboard accessible
+- [x] Trending repositories explored
+- [x] At least one repository starred
+- [x] At least one public repository forked
+- [x] Forked repository visible under your account
+- [x] Professional bio added to your GitHub profile
+- [x] Profile information reviewed for accuracy and professionalism
+- [x] Screenshots 1 and 3–6 included and readable
+- [x] No passwords, codes, or authentication secrets exposed
 
 ---
 
