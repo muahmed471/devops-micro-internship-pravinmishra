@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 # Assignment 2 — Building an AI-Assisted Git Safety Net (PR Ready Check)
-=======
 # Assignment 6 — Building an AI-Assisted Git Safety Net (PR Ready Check)
->>>>>>> upstream/main
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -21,9 +19,9 @@ This mirrors the Agentic Loop from Week 3's Linux triage assignment: **Gather �
 
 ---
 
-<<<<<<< HEAD
+
 # Task 1 — Create a Branch with Realistic Risk
-=======
+
 # Task 0 — Confirm Your Fork and Create a Feature Branch
 
 ## Goal
@@ -44,13 +42,12 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 A dedicated branch isolates your work from the stable main branch, allowing you to make changes, test them, and submit them for review without affecting the main codebase. It also makes collaboration easier by keeping each feature or fix in its own branch, simplifying code reviews, rebasing, and merge conflict resolution. Once the changes are approved, the branch can be safely merged into main, ensuring the main branch remains clean and stable.
 
 # Task 1 — Stage a Change With Realistic Risk
->>>>>>> upstream/main
 
 ## Goal
 
 On your own fork of this repository (the one you've been submitting your DMI work in since onboarding), create a new branch and stage a change that a real reviewer should catch: a hardcoded-looking secret and a leftover debug statement.
 
-<<<<<<< HEAD
+
 ### What to do
 
 ```bash
@@ -71,11 +68,11 @@ Stage it with `git add`.
 ### Evidence
 
 #### Screenshot 1 — `git status` showing the staged file on your new branch
-=======
+
 ### Evidence
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
->>>>>>> upstream/main
+
 
 <img width="1202" height="281" alt="image" src="https://github.com/user-attachments/assets/f6524a2a-7dfe-47ae-a65f-cefbc7c2d1a7" />
 
@@ -184,7 +181,7 @@ No. This hook only detects secrets that match the specific patterns defined in i
 
 Create a manually invoked Claude Code skill that reads your staged changes and produces a PR-readiness report and a draft PR description — without writing, committing, or pushing anything itself.
 
-<<<<<<< HEAD
+
 ### What to do
 
 Create `.claude/skills/pr-ready/SKILL.md` with frontmatter restricting it to read-only inspection tools:
@@ -212,35 +209,28 @@ You are reviewing staged changes before a Pull Request is opened.
 
 Run it with `/pr-ready`.
 
-=======
->>>>>>> upstream/main
+
 ### Evidence
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+<img width="1702" height="911" alt="image" src="https://github.com/user-attachments/assets/a7960c00-88d2-43c8-9d3f-f41f8f33c79e" />
 
----
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-Add your screenshot here.
+<img width="1772" height="695" alt="image" src="https://github.com/user-attachments/assets/a7bc921f-6b7f-4f65-9f84-900b086970e6" />
 
----
 
 ### Notes
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
-
----
+/pr-ready is designed only to inspect the repository and generate a draft Pull Request report. It uses Bash to run Git commands and Read to inspect files, but it does not have Write permissions because it must never modify files, create commits, push changes, or open Pull Requests automatically. Keeping it read-only ensures that a human reviews and approves any changes before they are applied.
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
-
----
+Both examined the staged changes, but they served different purposes. The pre-commit hook enforced fixed rules and automatically blocked commits containing known secret patterns or oversized files. The /pr-ready skill performed a broader review by identifying issues such as debug statements, TODO/FIXME comments, mixed or unrelated changes, missing documentation, and drafting a Pull Request title and description. The hook acts as an automated gatekeeper, while the AI skill provides contextual analysis and recommendations.
 
 # Task 5 — Fix the Issues and Re-Verify
 
@@ -252,29 +242,23 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+<img width="1482" height="157" alt="image" src="https://github.com/user-attachments/assets/490b68b1-fdaa-4839-b8bf-1e5114c6d230" />
 
----
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+<img width="907" height="222" alt="image" src="https://github.com/user-attachments/assets/d3fbbae3-5dd7-4d30-84ce-6cb9c43125d8" />
 
----
 
 ### Notes
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+I removed the fake AWS access key and any debug statements from the staged files, then staged the corrected changes again. This ensured that the pre-commit hook no longer detected any secret-like patterns or blocked content, allowing the commit to complete successfully.
 
----
-
-<<<<<<< HEAD
 # Task 6 — Open the Pull Request Using the AI Draft
-=======
+
 # Task 6 — Push and Open a Pull Request Using the AI Draft
->>>>>>> upstream/main
 
 ## Goal
 
@@ -286,35 +270,26 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
+<img width="1872" height="1082" alt="image" src="https://github.com/user-attachments/assets/4a5189de-f694-43dd-bf2a-286f112fcfc5" />
 
----
 
 #### PR Link
 
-Add your PR URL here...
-
----
+https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/435
 
 ### Notes
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
-
----
+I reviewed the AI-generated draft and updated it to accurately reflect my actual changes. I removed any generic wording, ensured the description matched the work completed, and made it clearer and more concise so reviewers would understand the purpose and scope of the Pull Request.
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
-
----
+The AI draft could contain incorrect assumptions, omit important details, or describe changes that were not actually made. Reviewing it before submitting helps ensure the Pull Request is accurate, complete, and provides reviewers with reliable information.
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
-
----
+This assignment is intended for individual practice, so the Pull Request should target my own fork instead of the shared upstream repository. Doing so keeps my experimental changes separate from the main project, prevents unnecessary pull requests to the shared repository, and allows me to safely test the workflow without affecting other contributors.
 
 # Task 7 — Map the Workflow to the Agentic Loop
 
@@ -326,33 +301,23 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
-
----
+The Gather step includes collecting information about the staged changes by running commands such as git status and git diff --cached. It also involves reading the relevant files to understand exactly what will be included in the commit.
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
-
----
+The Analyze step is performed by the pre-commit hook and the /pr-ready skill. The pre-commit hook checks for secret-like patterns and oversized files, while /pr-ready analyzes the staged changes for risks such as debug statements, TODO/FIXME comments, mixed changes, and drafts a Pull Request title and description.
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
-
----
+The Human Act step is reviewing the AI's recommendations, fixing any identified issues, running git commit, pushing the branch, and creating the Pull Request. These actions permanently change the repository and publish code, so they require human approval and accountability to prevent unintended or incorrect changes.
 
 **4. Which step is Verify?**
 
-Add your answer here.
-
----
+The Verify step includes rerunning the pre-commit hook and the /pr-ready skill after making fixes, confirming that the commit succeeds without being blocked, and ensuring the Pull Request accurately reflects the intended changes.
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
-
----
+The pre-commit hook provides fast, consistent enforcement of predefined security and file-size rules, while the AI skill performs a broader contextual review and generates a helpful Pull Request draft. Together, they provide stronger quality assurance than either tool could provide on its own.
 
 # Task 8 — LinkedIn Post
 
@@ -364,19 +329,17 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
-
----
+https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-git-githooks-activity-7488132639502270465-EGql?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c
 
 ## Key Learnings
 
 Add 3-5 bullet points on what you learned this week.
 
--
--
--
-
----
+Learned how to create and configure a custom Git pre-commit hook to prevent committing secret-like patterns and oversized files.
+Understood the difference between fixed-rule validation (Git hooks) and AI-assisted code review using a read-only /pr-ready skill.
+Practiced creating feature branches, rebasing with upstream changes, and following a professional Pull Request workflow.
+Improved understanding of secure development practices by validating changes before committing and submitting code.
+Recognized the importance of reviewing AI-generated suggestions instead of accepting them without verification.
 
 # Submission Instructions
 
@@ -394,25 +357,23 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
-
----
+https://github.com/muahmed471/devops-micro-internship-interviews/tree/feature/ai-pr-ready
 
 # Completion Checklist
 
-- [ ] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
-- [ ] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
-- [ ] `core.hooksPath` configured to point at `hooks/`
-- [ ] Pre-commit hook shown blocking the risky commit
-- [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
-- [ ] `/pr-ready` run against the risky diff and shown flagging issues
-- [ ] Risky file fixed; `git commit` succeeds cleanly
-- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
-- [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
-- [ ] Agentic Loop mapping (Task 7) completed in your own words
-- [ ] LinkedIn post published and URL submitted
-- [ ] All required screenshots added
-- [ ] GitHub repository URL provided
+- [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
+- [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
+- [x] `core.hooksPath` configured to point at `hooks/`
+- [x] Pre-commit hook shown blocking the risky commit
+- [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
+- [x] `/pr-ready` run against the risky diff and shown flagging issues
+- [x] Risky file fixed; `git commit` succeeds cleanly
+- [x] `/pr-ready` re-run showing a clean report and drafted PR title/description
+- [x] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
+- [x] Agentic Loop mapping (Task 7) completed in your own words
+- [x] LinkedIn post published and URL submitted
+- [x] All required screenshots added
+- [x] GitHub repository URL provided
 
 ---
 
