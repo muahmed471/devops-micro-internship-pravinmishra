@@ -80,3 +80,4 @@ Verify includes rerunning the pre-commit hook, executing /pr-ready again to conf
 5. Why do you need both the fixed-rule pre-commit hook and the AI skill? Isn't one enough?
 
 Both tools complement each other. The pre-commit hook provides fast, consistent enforcement of predefined rules, such as blocking known secret patterns and oversized files. The AI skill performs contextual analysis by identifying broader code quality concerns and generating a helpful Pull Request draft. Using both provides stronger protection and a more thorough review than either approach alone.
+cl
