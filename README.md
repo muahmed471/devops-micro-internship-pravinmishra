@@ -84,10 +84,10 @@ Week 01 → Success Mindset
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
 
-<!-- Week 03 → Linux & Bash for DevOps -->
+Week 03 → Linux & Bash for DevOps
 <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
 
-<!-- Week 04 → Git & GitHub -->
+Week 04 → Git & GitHub
 <<<<<<< HEAD
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
 =======
@@ -146,7 +146,7 @@ Week 01 → Success Mindset
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/muneer-ahmed-25322b206_free-devops-for-beginners-cohort-run-by-pravin-activity-7362001999619346433-8a3M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/p/774c9fe510b3?postPublishedType=initial |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:share:7478535518704758785/ | https://medium.com/@muahmed471/i-stopped-chasing-productivity-and-started-building-a-system-23eca060e198?postPublishedType=repub |
 | 02 | Agentic AI with Claude Code | ✅ Started | 🔄 In Progress | — | — |
-| 03 | Linux & Bash for DevOps | ✅ Started | 🔄 In Progress | https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-react-nginx-activity-7486297387897004033-KbuF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | — |
+| 03 | Linux & Bash for DevOps | ✅ Started | ✅ Completed | https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-react-nginx-activity-7486297387897004033-KbuF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/@muahmed471/beyond-git-hooks-how-i-combined-fixed-rule-security-checks-with-ai-assisted-pull-request-reviews-73dc71bc3387?postPublishedType=initial |
 =======
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
