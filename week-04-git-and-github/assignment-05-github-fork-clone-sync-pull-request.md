@@ -93,11 +93,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 ### Evidence
 
-<<<<<<< HEAD
 #### Screenshot 8 — Pull Request creation page showing the correct base repository/branch and head repository/branch
-=======
-#### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
->>>>>>> upstream/main
 
 <img width="1760" height="1085" alt="Assigment05-Screenshot9" src="https://github.com/user-attachments/assets/c4654aeb-4dbf-470d-b74c-7c93aba7acc5" />
 
@@ -167,17 +163,10 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-<<<<<<< HEAD
 - 🌐 DMI Official Website: https://pravinmishra.com/dmi  
 - 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
 - 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
 - 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-=======
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
->>>>>>> upstream/main
 - ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
 - 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
