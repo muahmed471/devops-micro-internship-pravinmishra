@@ -22,17 +22,6 @@
 
 **For LinkedIn posts:**
 
-<<<<<<< HEAD
-=======
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
-
-**For blog posts:**
-
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
-
-Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
-
->>>>>>> upstream/main
 #DMIByPravinMishra 
 
 ### Tag 'Pravin Mishra', 'Lead Co mentor' & your group's co comentors to your LinkedIn post.
@@ -42,11 +31,7 @@ Pravin Mishra [Linkedin profile](https://www.linkedin.com/in/pravin-mishra-aws-t
 | Group | Comentors |
 |-------|-----------|
 | Lead Co-Mentor | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) |
-<<<<<<< HEAD
 | Group-1 Comentors | [Nkechi Ahanonye](https://www.linkedin.com/in/nkechiahanonye/), [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
-=======
-| Group-1 Comentors | [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
->>>>>>> upstream/main
 | Group-2 Comentors | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/), [Joy Ukpabi](https://www.linkedin.com/in/joyukpabi/) |
 | Group-3 Comentors | [Bhupendra Bhati](https://www.linkedin.com/in/bhupendrabhati/), [Ranbir Kaur](https://www.linkedin.com/in/ranbirkaur/) |
 
