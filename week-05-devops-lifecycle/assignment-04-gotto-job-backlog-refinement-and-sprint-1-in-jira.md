@@ -136,11 +136,11 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 11 — Git commit output
 
-![screenshot](./screenshots/Assignment4-Screenshot15.png)
+![screenshot](./screenshots/Assignment4-Screenshot15.png) ![screenshot](./screenshots/Assignment4-Screenshot19.png)
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-![screenshot](./screenshots/Assignment4-Screenshot16.png)
+![screenshot](./screenshots/Assignment4-Screenshot18.png)
 
 # Task 9 — Retro Notes (Scrum Pillar + Value)
 
