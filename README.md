@@ -85,12 +85,10 @@ Week 03 → Linux & Bash for DevOps
 <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
 
 Week 04 → Git & GitHub
-
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
-
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
+Week 05 → DevOps Lifecycle & Agile
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
 
 <!-- Week 06 → AWS Cloud -->

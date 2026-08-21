@@ -20,17 +20,16 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot1.png)
 
 ### Notes
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
-
----
+PO: Prioritized the most important website improvements, including UI updates, footer changes, contact information, and the Join DMI call-to-action.
+SM: Ensured the work followed the Scrum process through backlog refinement, Story Points, Sprint planning, Daily Scrum updates, task tracking, and retrospective activities.
+Dev Lead: Led the implementation of the website UI changes, including the header, hero content, buttons, footer, and responsive design improvements.
+DevOps Lead: Managed the Git/GitHub workflow, testing, AWS EC2 deployment, verification, and delivery of the updated website.
 
 # Task 2 — Create the Jira Project (Team-managed → Scrum)
 
@@ -42,9 +41,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot3.png)
 
 # Task 3 — Create the Epic
 
@@ -56,9 +53,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot5.png)
 
 # Task 4 — Seed the Product Backlog (6–8 Stories + Fibonacci Points + Ranking)
 
@@ -70,15 +65,11 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot6.png)
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot7.png)
 
 # Task 5 — Planning Poker (Estimate + Debate Notes)
 
@@ -90,17 +81,18 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot8.png)
 
 ### Notes
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
-
----
+Estimated at 2 points because it requires a small HTML/content change plus testing on the homepage and EC2. The debate was whether it should be 1 point, but verification on the deployed site made 2 points more appropriate.
+Estimated at 2 points because the CSS change is simple, but it also requires checking readability/contrast and verifying the change on EC2. We considered 1 point, but the testing requirement justified 2.
+Estimated at 1 point because it is a straightforward text-only change with minimal implementation and testing effort. There was little uncertainty or debate.
+Estimated at 2 points because it involves adding the footer content, date handling, styling, responsive testing, and deployment verification. The extra testing and deployment work made 2 points more suitable than 1.
+Estimated at 2 points because it requires creating a new UI section, adding the required fields/placeholders, styling it, and verifying the layout. We considered 3 points, but the scope was manageable enough for 2.
+Estimated at 1 point because it is a small UI addition involving one CTA button/link and basic click verification. There was minimal implementation complexity or uncertainty.
 
 # Task 6 — Sprint Planning: Create Sprint 1 + Sprint Goal + Scope
 
@@ -112,9 +104,7 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot11.png)
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
@@ -132,9 +122,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot10.png)
 
 # Task 8 — Ship One Small Increment (Build + Deploy + Proof)
 
