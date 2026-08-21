@@ -108,9 +108,7 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot13.png)
 
 # Task 7 — Reports: Open Burndown Chart
 
@@ -134,21 +132,15 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot14.png)
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot15.png)
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot16.png)
 
 # Task 9 — Retro Notes (Scrum Pillar + Value)
 
@@ -160,9 +152,7 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot17.png)
 
 # LinkedIn Post (Required)
 
