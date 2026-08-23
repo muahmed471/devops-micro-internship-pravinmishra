@@ -20,7 +20,12 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 #### Screenshot 1 — Jira API token creation confirmation page showing the token name, with the token value not visible
 
-Add your screenshot here.
+<table>
+<tr>
+<td><img src="./screenshots/Assignment5-Screenshot1.png" width="400"></td>
+<td><img src="./screenshots/Assignment5-Screenshot2.png" width="400"></td>
+</tr>
+</table>
 
 ### Notes You Must Write (Very Important):
 
@@ -164,7 +169,7 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
+- [x] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
 - [ ] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
 - [ ] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
 - [ ] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
