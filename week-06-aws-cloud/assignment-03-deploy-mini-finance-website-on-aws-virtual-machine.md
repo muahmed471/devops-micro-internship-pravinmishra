@@ -36,6 +36,7 @@ Connect to the instance using SSH and install Nginx or Apache.
 
 Clone the Mini Finance repository (`https://github.com/pravinmishraaws/mini_finance.git`) and copy the site files to the web server's root directory.
 
+
 > No screenshot required for this task. Completion is verified through Task 4.
 
 ---
@@ -50,17 +51,13 @@ Start the web server and confirm the Mini Finance website is accessible through 
 
 #### Screenshot 1 — Browser showing the Mini Finance website running at the EC2 public IP
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment3-Screenshot1.png)
 
 #### Public IP URL
 
 Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`):
 
-`Add your URL here`
-
----
+http://16.112.77.255/
 
 # Submission Instructions
 
@@ -72,13 +69,13 @@ Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`
 
 # Completion Checklist
 
-- [ ] EC2 instance launched in a public subnet with SSH (22) and HTTP (80) allowed
-- [ ] Connected to the instance via SSH
-- [ ] Web server (Nginx or Apache) installed
-- [ ] Mini Finance repository cloned and files copied to the web server root
-- [ ] Web server started and website verified in the browser (Screenshot 1)
-- [ ] EC2 Public IP URL included
-- [ ] No sensitive data exposed
+- [x] EC2 instance launched in a public subnet with SSH (22) and HTTP (80) allowed
+- [x] Connected to the instance via SSH
+- [x] Web server (Nginx or Apache) installed
+- [x] Mini Finance repository cloned and files copied to the web server root
+- [x] Web server started and website verified in the browser (Screenshot 1)
+- [x] EC2 Public IP URL included
+- [x] No sensitive data exposed
 
 ---
 
