@@ -148,9 +148,9 @@ Week 05 → DevOps Lifecycle & Agile
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-react-nginx-activity-7486297387897004033-KbuF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/@muahmed471/beyond-git-hooks-how-i-combined-fixed-rule-security-checks-with-ai-assisted-pull-request-reviews-73dc71bc3387?postPublishedType=repub |
 
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-git-githooks-activity-7488132639502270465-EGql?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/@muahmed471/from-git-hooks-to-ai-assisted-pull-requests-building-a-safer-devops-workflow-58ac2efa2a04 |
-| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | 🔄 In Progress | https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-aws-ec2-activity-7495934620174209024-VxOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c
+| 05 | DevOps Lifecycle & Agile | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-aws-ec2-activity-7495934620174209024-VxOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c 
  | https://medium.com/@muahmed471/from-jira-backlog-to-aws-ec2-building-and-shipping-a-devops-micro-internship-website-in-five-days-9dba31117bdb |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed  | 🔄 In Progress | https://www.linkedin.com/posts/muneer-ahmed-25322b206_aws-devops-cloudcomputing-activity-7498272041368993792-ya0y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
