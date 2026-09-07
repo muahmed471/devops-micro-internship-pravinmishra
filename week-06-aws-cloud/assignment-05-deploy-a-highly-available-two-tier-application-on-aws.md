@@ -20,33 +20,27 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot1.png)
+![screenshot](./screenshots/Assignment5-Screenshot2.png)
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot3.png)
 
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot5.png)
+![screenshot](./screenshots/Assignment5-Screenshot4.png)
+![screenshot](./screenshots/Assignment5-Screenshot6.png)
 
 #### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot7.png)
 
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot8.png)
+![screenshot](./screenshots/Assignment5-Screenshot9.png)
 
 # Task 2 — Create Security Groups (ALB, EC2, RDS) with Least Privilege
 
@@ -58,21 +52,15 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot10.png)
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot11.png)
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot12.png)
 
 # Task 3 — Deploy Database Tier (RDS Multi-AZ in Private Subnets)
 
@@ -84,15 +72,11 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot14.png)
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot15.png)
 
 # Task 4 — Build a Launch Template (User Data Installs App + Connects to DB)
 
@@ -104,15 +88,11 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot16.png)
 
 #### Screenshot 12 — A running instance created from the template showing the application responds on port 80
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot17.png)
 
 # Task 5 — Create an Application Load Balancer (ALB) Across 2 Public Subnets
 
@@ -124,9 +104,7 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot18.png)
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
