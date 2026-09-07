@@ -105,12 +105,11 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
 ![screenshot](./screenshots/Assignment5-Screenshot18.png)
+![screenshot](./screenshots/Assignment5-Screenshot19.png)
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot20.png)
 
 # Task 6 — Create Auto Scaling Group (ASG) in 2 Public Subnets
 
@@ -122,15 +121,11 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot21.png)
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot22.png)
 
 # Task 7 — Configure App to Use RDS + Validate Read/Write
 
@@ -142,15 +137,12 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot23.png)
+![screenshot](./screenshots/Assignment5-Screenshot24.png)
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot25.png)
 
 # Task 8 — High Availability Tests (Must Do Both)
 
@@ -162,27 +154,19 @@ Test A: terminate one web instance and confirm the Auto Scaling Group replaces i
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot26.png)
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot27.png)
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot28.png)
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot29.png)
 
 # Task 9 — Architecture and Test-Results Summary
 
@@ -194,17 +178,23 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram (hand-drawn is fine), or an AWS console overview showing the components
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot30.png)
 
 ### Notes
 
 Write a short summary covering the network, ALB/ASG setup, RDS setup, and the results of Test A and Test B.
 
-Write your answer here.
+The high-availability web application was deployed in a custom AWS VPC across two Availability Zones (ap-south-2a and ap-south-2b), using public subnets for the web servers and private subnets for backend resources. NAT Gateways provide outbound internet access from the private subnets.
 
----
+An internet-facing Application Load Balancer (ha-alb-EpicReads) was configured with an HTTP listener on port 80 and connected to the ha-web-tg target group. An Auto Scaling Group using the ha-web-launch-template was configured with Desired = 2, Minimum = 2, Maximum = 4, distributing EC2 instances across both Availability Zones. ELB health checks were enabled, and the targets became healthy.
+
+Amazon RDS for MySQL was configured in the private subnet with the appdb database. The PHP application successfully connected to RDS and displayed the database connection as SUCCESS.
+
+Test A – Application Availability: The ALB DNS endpoint was tested and initially experienced a timeout while the backend web server was being corrected. After fixing the Apache/PHP/database issue, the application successfully loaded through the ALB.
+
+Test B – High Availability: The application was verified through the target group with healthy EC2 targets across the Availability Zones, demonstrating that the ALB and Auto Scaling configuration can distribute traffic and maintain application availability.
+
+Overall result: The application is successfully deployed as a highly available, scalable, and secure AWS web application using VPC, ALB, ASG, EC2, NAT Gateway, and RDS MySQL.
 
 # LinkedIn Post (Required)
 
@@ -218,9 +208,7 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/dYhpb7SY
 
 #### Screenshot — Published LinkedIn post
 
