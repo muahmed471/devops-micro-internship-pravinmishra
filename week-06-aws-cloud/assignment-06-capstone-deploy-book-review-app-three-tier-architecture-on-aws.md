@@ -20,9 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
-
----
+![screenshot](./screenshots/Assignment6-Screenshot1.png)
 
 # Task 2 — AWS Region & Services Used
 
@@ -34,15 +32,23 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
-
----
+Asia Pacific (Hyderabad) — ap-south-2
 
 **Services used:**
 
-Write your answer here.
-
----
+Amazon VPC — Custom VPC (10.0.0.0/16)
+Amazon EC2 — Web Tier and App Tier instances
+Application Load Balancer (ALB) — Public/Internet-facing ALB
+Application Load Balancer (ALB) — Internal ALB
+Nginx — Reverse proxy for the Web Tier
+Node.js / Express — Backend application
+Amazon RDS for MySQL — Primary database with Multi-AZ
+Amazon RDS Read Replica
+Internet Gateway (IGW)
+NAT Gateway
+Route Tables
+Security Groups
+Six Subnets across two Availability Zones
 
 # Task 3 — Public Entry Point
 
