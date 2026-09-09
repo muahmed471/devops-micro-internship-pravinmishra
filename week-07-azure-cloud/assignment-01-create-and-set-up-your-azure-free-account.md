@@ -30,23 +30,17 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment1-Screenshot1.png)
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment1-Screenshot2.png)
 
 ### Notes
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
-
----
+I plan to explore Azure Virtual Machines, Azure Virtual Network, Azure Storage, and Azure SQL Database first. These services will help me understand the core concepts of cloud computing, including compute, networking, storage, and databases. I also want to gain practical experience by building and connecting these services in a simple cloud application
 
 # Submission Instructions
 
@@ -57,12 +51,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [x] Azure Free Account created with identity, phone, and payment verification completed
+- [x] Microsoft Agreement and Offer Terms accepted
+- [x] Azure Portal accessed successfully (Screenshot 1)
+- [x] Free Trial subscription confirmed (Screenshot 2)
+- [x] Reflection paragraph written (Notes)
+- [x] No sensitive information exposed
 
 ---
 
