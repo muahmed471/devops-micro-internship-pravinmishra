@@ -20,21 +20,16 @@ Create a VNet (10.0.0.0/16) with a public subnet (10.0.1.0/24) for the VM and a 
 
 #### Screenshot 1 — Virtual Network overview showing the 10.0.0.0/16 address space and both subnets
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot1.png)
 
 #### Screenshot 2 — Public and private NSG inbound rules showing ports 80, 22, and restricted 3306 access
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot2.png)
+![screenshot](./screenshots/Assignment5-Screenshot3.png)
 
 #### Screenshot 3 — Public IP and Network Interface association for the Virtual Machine
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot4.png)
 
 # Task 2 — Provision Azure Virtual Machine
 
@@ -46,15 +41,11 @@ Launch an Ubuntu 22.04 LTS VM (Standard B1s or equivalent) in the public subnet,
 
 #### Screenshot 4 — Virtual Machine overview showing Ubuntu, size, public IP, and subnet
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot5.png)
 
 #### Screenshot 5 — Terminal showing successful software installation or installed-version checks
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot6.png)
 
 # Task 3 — Deploy the EpicBook Application
 
@@ -66,9 +57,7 @@ Clone the EpicBook repository, install dependencies, build the frontend, configu
 
 #### Screenshot 6 — Terminal showing the EpicBook repository cloned and dependencies installed
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot7.png)
 
 #### Screenshot 7 — Nginx configuration or service status proving the frontend is configured to be served
 
