@@ -17,6 +17,7 @@ In this assignment, you will deploy the EpicBook web application on Azure using 
 Create a VNet (10.0.0.0/16) with a public subnet (10.0.1.0/24) for the VM and a private subnet (10.0.2.0/24) for MySQL, with NSGs allowing HTTP (80)/SSH (22) publicly and MySQL (3306) only from the VM subnet, plus a Public IP and Network Interface for the VM.
 
 ### Evidence
+![screenshot](./screenshots/Assignment5-Screenshot11.png)
 
 #### Screenshot 1 — Virtual Network overview showing the 10.0.0.0/16 address space and both subnets
 
@@ -61,15 +62,12 @@ Clone the EpicBook repository, install dependencies, build the frontend, configu
 
 #### Screenshot 7 — Nginx configuration or service status proving the frontend is configured to be served
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot9.png)
+![screenshot](./screenshots/Assignment5-Screenshot19.png)
 
 #### Screenshot 8 — Backend process or listening-port evidence (without exposing environment-variable secrets)
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot10.png)
 
 # Task 4 — Setup Azure Database for MySQL
 
@@ -81,22 +79,17 @@ Create a private Azure Database for MySQL Flexible Server (VNet Integration) in 
 
 #### Screenshot 9 — MySQL Flexible Server overview showing Private access (VNet Integration)
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot12.png)
 
 #### Screenshot 10 — Networking configuration showing the private subnet and restricted access
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot13.png)
 
 #### Screenshot 11 — MySQL Client output showing the EpicBook database or imported tables (no password visible)
 
-Add your screenshot here.
-
----
-
+![screenshot](./screenshots/Assignment5-Screenshot14.png)
+![screenshot](./screenshots/Assignment5-Screenshot15.png)
+![screenshot](./screenshots/Assignment5-Screenshot16.png)
 # Task 5 — Test End-to-End Functionality
 
 ## Goal
@@ -107,23 +100,17 @@ Confirm the EpicBook application loads through the VM's public IP and that viewi
 
 #### Screenshot 12 — Browser showing the EpicBook application with the Virtual Machine public IP visible
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot17.png)
 
 #### Screenshot 13 — Proof of a successful database-backed action (viewing products, adding to cart, or placing an order)
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5-Screenshot18.png)
 
 #### Public IP URL
 
 Paste the public IP URL of your Virtual Machine here:
 
-`Add your URL here`
-
----
+http://20.219.88.114/
 
 # Submission Instructions
 
@@ -135,12 +122,12 @@ Paste the public IP URL of your Virtual Machine here:
 
 # Completion Checklist
 
-- [ ] Task 1: Network foundation created with public/private subnets and NSGs (Screenshots 1–3)
-- [ ] Task 2: VM provisioned and required software installed (Screenshots 4–5)
-- [ ] Task 3: EpicBook frontend and backend deployed (Screenshots 6–8)
-- [ ] Task 4: Private Azure Database for MySQL created and data imported (Screenshots 9–11)
-- [ ] Task 5: End-to-end functionality validated (Screenshots 12–13, Public IP URL)
-- [ ] No sensitive data exposed
+- [x] Task 1: Network foundation created with public/private subnets and NSGs (Screenshots 1–3)
+- [x] Task 2: VM provisioned and required software installed (Screenshots 4–5)
+- [x] Task 3: EpicBook frontend and backend deployed (Screenshots 6–8)
+- [x] Task 4: Private Azure Database for MySQL created and data imported (Screenshots 9–11)
+- [x] Task 5: End-to-end functionality validated (Screenshots 12–13, Public IP URL)
+- [x] No sensitive data exposed
 
 ---
 
