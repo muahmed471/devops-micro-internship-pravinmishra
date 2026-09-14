@@ -36,9 +36,7 @@ Add a screenshot of the terminal showing successful `aws --version` output.
 
 Add a screenshot of VS Code showing the HashiCorp Terraform extension installed and enabled.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4_Screenshot3.png)
 
 # Task 1 — Create the Modular Terraform Project
 
