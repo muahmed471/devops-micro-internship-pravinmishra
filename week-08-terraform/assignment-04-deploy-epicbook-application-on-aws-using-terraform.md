@@ -24,17 +24,13 @@ Prepare your local environment by installing Terraform, AWS CLI, and the HashiCo
 
 Add a screenshot of the terminal showing successful `terraform version` output.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4_Screenshot1.png)
 
 ### Screenshot 2 — AWS CLI Version
 
 Add a screenshot of the terminal showing successful `aws --version` output.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4_Screenshot2.png)
 
 ### Screenshot 3 — HashiCorp Terraform Extension
 
