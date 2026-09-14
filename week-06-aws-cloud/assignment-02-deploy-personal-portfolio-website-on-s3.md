@@ -1,6 +1,6 @@
 # Assignment 2 — Deploy Personal Portfolio Website on S3
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -43,7 +43,7 @@ Upload the contents of the template folder (not the folder itself) so `index.htm
 
 ### Evidence
 
-#### Screenshot 3 — S3 bucket Objects view showing `index.html` at the root level
+#### Screenshot 3 — S3 bucket Objects view showing `index.html` at the top or root level
 
 ![screenshot](./screenshots/Assignment2-Screenshot4.png)
 
@@ -55,7 +55,7 @@ Enable S3 Static Website Hosting with `index.html` as the index document and `er
 
 ### Evidence
 
-#### Screenshot 4 — Static website hosting enabled screen showing the website endpoint
+#### Screenshot 4 — Static website hosting enabled screen showing the Website endpoint
 
 ![screenshot](./screenshots/Assignment2-Screenshot5.png)
 
@@ -92,7 +92,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 ### Evidence
 
-#### Screenshot 7 (optional) — Before/after view, or a browser view showing the updated text
+#### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
 ![screenshot](./screenshots/Assignment2-Screenshot7.png)
 ![screenshot](./screenshots/Assignment2-Screenshot9.png)
@@ -139,4 +139,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

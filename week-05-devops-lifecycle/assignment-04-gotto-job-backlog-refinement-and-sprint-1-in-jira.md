@@ -1,6 +1,6 @@
 # Assignment 4 — Gotto Job: Backlog Refinement & Sprint 1 in Jira
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -154,7 +154,7 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 ![screenshot](./screenshots/Assignment4-Screenshot17.png)
 
-# LinkedIn Post (Required)
+# Task 10 — LinkedIn Post (Mandatory)
 
 ## Goal
 
@@ -174,7 +174,7 @@ https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-nginx-webserver-act
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
+- Add all 14 required screenshots
 - Full name must be visible in required screenshots
 - Do not expose sensitive information (keys, passwords, account IDs)
 
@@ -182,6 +182,7 @@ https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-nginx-webserver-act
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [x] Task 1: Team Mode or Solo Mode selected and all four roles documented (Screenshot 1 & Notes)
 - [x] Task 2: Team-managed Scrum project created with the required name (Screenshot 2)
 - [x] Task 3: UI improvement Epic created (Screenshot 3)
@@ -194,6 +195,20 @@ https://www.linkedin.com/posts/muneer-ahmed-25322b206_devops-nginx-webserver-act
 - [x] LinkedIn post published and URL submitted (Screenshot 14)
 - [x] Full Name visible in required screenshots
 - [x] No sensitive data exposed
+=======
+- [ ] Task 1: Team Mode or Solo Mode selected and all four roles documented (Screenshot 1 & Notes)
+- [ ] Task 2: Team-managed Scrum project created with the required name (Screenshot 2)
+- [ ] Task 3: UI improvement Epic created (Screenshot 3)
+- [ ] Task 4: 6–8 Stories added under the Epic and ranked by value (Screenshots 4 & 5)
+- [ ] Task 5: Story Points set (1, 2, or 3) with reasoning recorded (Screenshot 6 & Notes)
+- [ ] Task 6: Sprint 1 created with Sprint Goal, 3–4 Stories, and Sub-tasks (Screenshots 7 & 8)
+- [ ] Task 7: Burndown Chart opened (Screenshot 9)
+- [ ] Task 8: One UI-only increment implemented, committed, deployed, and verified (Screenshots 10–12)
+- [ ] Task 9: Retro comment with one Scrum pillar and one Scrum value (Screenshot 13)
+- [ ] Task 10: Mandatory LinkedIn post published with the live URL, backlog refinement, Sprint planning, one shipped increment, proof, and Screenshot 14
+- [ ] Full Name visible in required screenshots
+- [ ] No sensitive data exposed
+>>>>>>> upstream/main
 
 ---
 
@@ -217,4 +232,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

@@ -1,6 +1,6 @@
 # Assignment 4 — Building Your AI Team
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) Cohort with Agentic AI
 
 ---
 
@@ -111,6 +111,31 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 <img width="1527" height="867" alt="image" src="https://github.com/user-attachments/assets/709c4009-5261-4b81-8d02-eab43b1dc314" />
 
 
+# Task 5 — Share Your AI Team Achievement on LinkedIn
+
+## Goal
+
+Share your AI subagents learning progress on LinkedIn and provide evidence of your published post.
+
+### LinkedIn Post
+
+Use the LinkedIn post template provided in the assignment guideline.
+
+Make sure your published post includes:
+
+- Your AI team achievement
+- The three specialized subagents you created
+- Your GitHub repository URL
+- Your DMI Leaderboard progress link
+
+### Evidence
+
+#### Screenshot 7 — Published LinkedIn post showing your post content and leaderboard progress link visible
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Ensure all agent files are committed in `.claude/agents/`
@@ -138,6 +163,7 @@ https://github.com/muahmed471/devops-micro-internship-pravinmishra/edit/main/wee
 - [ ] All required screenshots added
 - [ ] GitHub repo updated with agents
 
+
 ---
 
 ## 📌 About DMI & CloudAdvisory
@@ -160,4 +186,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

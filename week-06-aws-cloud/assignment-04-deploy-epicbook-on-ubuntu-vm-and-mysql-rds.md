@@ -1,6 +1,6 @@
 # Assignment 4 — Deploy EpicBook on Ubuntu VM + MySQL RDS with Secure Cloud Network
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -61,7 +61,7 @@ Launch an Ubuntu 20.04 instance in the public subnet with `epicbook-ec2-sg` atta
 ![screenshot](./screenshots/Assignment4-Screenshot8.png)
 ![screenshot](./screenshots/Assignment4-Screenshot9.png)
 
-#### Screenshot 7 — Terminal showing a successful SSH login
+#### Screenshot 7 — Terminal showing a successful SSH login with the `ubuntu@...` prompt
 
 ![screenshot](./screenshots/Assignment4-Screenshot10.png)
 
@@ -128,7 +128,7 @@ Clone the EpicBook repository, install backend dependencies, configure `.env` wi
 
 ![screenshot](./screenshots/Assignment4-Screenshot29.png)
 
-#### Screenshot 16 — `curl` output proving the backend responds
+#### Screenshot 16 — `curl` output proving the backend responds; a 200, 301, or 404 response is acceptable if the service responds
 
 ![screenshot](./screenshots/Assignment4-Screenshot30.png)
 
@@ -160,11 +160,11 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 
 ![screenshot](./screenshots/Assignment4-Screenshot33.png)
 
-#### Screenshot 20 — Terminal showing a successful API call through the public endpoint
+#### Screenshot 20 — Terminal showing a successful API call through the public endpoint, such as `curl http://<EC2_PUBLIC_IP>/api/...`
 
 ![screenshot](./screenshots/Assignment4-Screenshot34.png)
 
-#### Screenshot 21 — Terminal showing a successful database connectivity test (`SELECT 1;` or similar)
+#### Screenshot 21 — Terminal showing the successful database connectivity test using `SELECT 1;` or similar
 
 ![screenshot](./screenshots/Assignment4-Screenshot35.png)
 
@@ -210,4 +210,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

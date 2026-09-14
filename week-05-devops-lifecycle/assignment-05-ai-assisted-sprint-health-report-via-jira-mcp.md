@@ -1,6 +1,10 @@
 # Assignment 5 — AI-Assisted Sprint Health Report via Jira MCP
 
+<<<<<<< HEAD
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+=======
+Part of the DevOps Micro Internship (DMI) with Agentic AI
+>>>>>>> upstream/main
 
 ---
 
@@ -20,12 +24,16 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 #### Screenshot 1 — Jira API token creation confirmation page showing the token name, with the token value not visible
 
+<<<<<<< HEAD
 <table>
 <tr>
 <td><img src="./screenshots/Assignment5-Screenshot1.png" width="400"></td>
 <td><img src="./screenshots/Assignment5-Screenshot2.png" width="400"></td>
 </tr>
 </table>
+=======
+Add your screenshot here.
+>>>>>>> upstream/main
 
 ### Notes You Must Write (Very Important):
 
@@ -169,7 +177,11 @@ Your submission must include:
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [x] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
+=======
+- [ ] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
+>>>>>>> upstream/main
 - [ ] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
 - [ ] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
 - [ ] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
@@ -202,4 +214,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
+<<<<<<< HEAD
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+=======
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
+>>>>>>> upstream/main

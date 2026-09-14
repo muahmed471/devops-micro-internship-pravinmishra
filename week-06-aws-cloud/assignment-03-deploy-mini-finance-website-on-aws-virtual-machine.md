@@ -1,6 +1,6 @@
 # Assignment 3 — Deploy Mini Finance Website on AWS Virtual Machine
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -49,7 +49,9 @@ Start the web server and confirm the Mini Finance website is accessible through 
 
 ### Evidence
 
-#### Screenshot 1 — Browser showing the Mini Finance website running at the EC2 public IP
+### Screenshots Required
+
+Take one screenshot showing the Mini Finance website running in the browser.
 
 ![screenshot](./screenshots/Assignment3-Screenshot1.png)
 
@@ -99,4 +101,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
