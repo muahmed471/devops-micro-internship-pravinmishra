@@ -101,25 +101,20 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot7.png)
 
 ### Screenshot 7 — Six-Subnet Architecture
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot7a.png)
 
 ### Screenshot 8 — Public and Private Tier Separation
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot8.png)
+![screenshot](./screenshots/Assignment5_Screenshot9.png)
 
 # Task 3 — Build the Load-Balancing and Compute Layers
 
@@ -133,33 +128,26 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot9a.png)
 
 ### Screenshot 10 — Public Load Balancer
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot10.png)
 
 ### Screenshot 11 — Internal Load Balancer
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot11.png)
 
 ### Screenshot 12 — Healthy Targets
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot12.png)
+![screenshot](./screenshots/Assignment5_Screenshot12a.png)
 
 # Task 4 — Build the Managed MySQL Database Layer
 
@@ -173,33 +161,25 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot13.png)
 
 ### Screenshot 14 — High Availability
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot14.png)
 
 ### Screenshot 15 — Read Replica
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot15.png)
 
 ### Screenshot 16 — Private Database Access
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot16.png)
 
 # Task 5 — Validate, Review, and Apply the Terraform Configuration
 
@@ -213,25 +193,21 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot17.png)
 
 ### Screenshot 18 — Terraform Plan
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot18b.png)
+![screenshot](./screenshots/Assignment5_Screenshot18.png)
+![screenshot](./screenshots/Assignment5_Screenshot18a.png)
 
 ### Screenshot 19 — Terraform Apply
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot19.png)
 
 # Task 6 — Deploy and Configure the Book Review Application
 
@@ -245,9 +221,7 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment5_Screenshot20.png)
 
 ### Screenshot 21 — Login or Authentication
 
@@ -289,9 +263,9 @@ Add your screenshot here.
 
 ## Public Application URL
 
-**Public Application URL / DNS:** Add the working public application URL or load-balancer DNS here
+**Public Application URL / DNS:** 
 
----
+http://book-review-public-alb-655604305.ap-south-2.elb.amazonaws.com
 
 # Task 7 — Demonstrate the Agentic AI Workflow
 
