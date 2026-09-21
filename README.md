@@ -152,8 +152,8 @@ Week 07 → Azure Cloud
  | https://medium.com/@muahmed471/from-jira-backlog-to-aws-ec2-building-and-shipping-a-devops-micro-internship-website-in-five-days-9dba31117bdb |
 | 06 | AWS Cloud | ✅ Completed  | 🔄 In Progress | https://www.linkedin.com/posts/muneer-ahmed-25322b206_aws-devops-cloudcomputing-activity-7498272041368993792-ya0y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRb5Z8BfmU5GnTuVjG5eHP-d8cMT-AYl0c | https://medium.com/@muahmed471/deploying-a-node-js-application-on-aws-with-ec2-nginx-amazon-rds-my-epicbook-devops-project-1baff359850d |
 | 07 | Azure Cloud | ✅ Completed  | 🔄 In Progress  | https://lnkd.in/p/dNYgT8Gz | https://medium.com/@muahmed471/epic-book-deployment-on-azure-93b07a13b8d2 |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | 🔄 In Progress | 🔄 In Progress | https://lnkd.in/p/e3wUpsms | https://medium.com/@muahmed471/deploying-a-full-stack-application-on-aws-using-modular-terraform-b49d73e28e16 |
+| 09 | Ansible | 🔄 In Progress | 🔄 In Progress | https://lnkd.in/p/d-VYdBjx | https://medium.com/@muahmed471/building-an-aws-ansible-ad-hoc-automation-lab-with-terraform-4207e0a020f6 |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |

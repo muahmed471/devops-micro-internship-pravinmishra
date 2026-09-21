@@ -9,18 +9,18 @@
 | 1 | DMI Cohort-3 Orientation Video | Watch the orientation video to get started with Cohort-3 | [YouTube](https://youtu.be/PTSkAR7iMpQ) |
 | 2 | YouTube Playlist - Cohort-3 | Watch the weekly live class recordings of Cohort-3 on YouTube | [Playlist](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho) |
 | 3 | How to write blogs? | Watch the video to learn how to write better blogs that people actually read in the age of AI content | [YouTube](https://www.youtube.com/watch?v=tyIsCkPVYjw), [YouTube](https://youtube.com/live/QNL-zW4dp8g?feature=share) |
-| 4 | DMI Website | Visit the official DevOps Micro Internship website | [Website](https://dmi.pravinmishra.com/?utm_source=github&utm_medium=readme) |
+| 4 | DMI Website | Visit the official DevOps Micro Internship website | [Website](https://dmi.pravinmishra.com/) |
 | 5 | The Cloud Advisory | Follow The Cloud Advisory on LinkedIn | [LinkedIn](https://www.linkedin.com/company/thecloudadvisory) |
 
 ---
 
-## [Cohort-3 Leaderboard - LIVE](https://dmi.pravinmishra.com/leaderboard.html?utm_source=github&utm_medium=readme)
+## [Cohort-3 Leaderboard - LIVE](https://dmi.pravinmishra.com/leaderboard.html)
 
 ---
 
 ## IMPORTANT FOR LINKEDIN AND BLOG POSTS - Always add the below line and the hashtags
 
-**For LinkedIn posts:**
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
 
 #DMIByPravinMishra 
 
@@ -44,22 +44,12 @@ Go through the [Onboarding](./onboarding) folder for complete assignment guideli
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/main
 ## 📌 How You're Scored
 
-These rules apply **every week** without exception. Every submission is reviewed using the same criteria to ensure consistency and fairness.
+Same rules apply every week, no exceptions. Here's exactly what we're checking, from your folder names down to your written content:
 
-### 1. Folder and File Structure
-
-Your folder and file names **must match the official template exactly**.
-
-* Do **not** rename folders or files.
-* Regularly sync your fork with the upstream repository (refer to the onboarding guide) to ensure you have the latest template.
-* Any folder or file that does not match the required structure will be treated as **missing**.
+**1. Folder and file names must match the template exactly.**
+Don't rename anything yourself. Sync your fork with `upstream` regularly (see the onboarding guide) so your structure always matches the current template — a folder or file that doesn't match exactly is treated as missing.
 
 ### 2. Assignment Files (20 Points Each)
 
@@ -109,7 +99,7 @@ Attendance is worth **10 points** for each Saturday session:
 
 You can earn a maximum of **30 attendance points per week**.
 
-**Note:** Attendance grading begins in **Week 2**. **Weeks 0–1 do not include attendance points.**
+**Note:** Attendance grading begins in **Week 4**. **Weeks 1–3 do not include attendance points.**
 
 ### 6. Screenshots
 
@@ -120,10 +110,6 @@ Screenshots are a **mandatory requirement** for every assignment.
 
 ---
 
-<<<<<<< HEAD
->>>>>>> 1254de0 (Rewrite scoring guidelines and stop tracking CLAUDE.md)
-=======
->>>>>>> upstream/main
 
 ## Week-1  — Success Mindset
 
@@ -165,7 +151,7 @@ Week-1 is **one assignment file** (`assignment-01-mindset-os.md`) containing 7 r
 
 | S. No. | Item                                | Comments                                                                                         | Link                                                    |
 | ------ | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| 1 | Week-2 Class Recording | Watch the recording of the week-2 live class on YouTube | [YouTube](https://youtube.com/live/rCtwsHFPirw?feature=share) |
+| 1 | Week-2 Class Recording | ⚠️ Link needs fixing — this currently points to the same video as the Week-1 recording above | [YouTube](https://youtube.com/live/nxFy-HoDqu4?feature=share) |
 
 
 ---
@@ -247,7 +233,6 @@ Week-4 is **5 assignment files**, each graded pass/fail — your blog post for t
 | Assignment-3 | CodeTrack branching workflow: Contact page | 20 |
 | Assignment-4 | GitHub account, exploration, and professional profile | 20 |
 | Assignment-5 | GitHub fork, clone, sync, and pull request | 20 |
-| Assignment-6 | Building an AI-Assisted Git Safety Net (PR Ready Check) | 20 |
 | — | LinkedIn post | 10 |
 | — | Blog post | 30 |
-| **Total** | | **160** |
+| **Total** | | **140** |
