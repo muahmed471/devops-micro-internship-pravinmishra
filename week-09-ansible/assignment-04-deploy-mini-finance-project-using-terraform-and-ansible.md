@@ -22,15 +22,25 @@ Create separate directories and files for the Terraform infrastructure and Ansib
 
 #### Screenshot 1 — Terminal or VS Code showing the complete `mini-finance` project structure
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment4-Screenshot1.png)
 
 ### Notes
 
-Add your task notes here.
+### Task Notes
 
----
+- Created the Mini Finance project structure with Terraform and Ansible.
+- Created AWS infrastructure using Terraform, including the VPC, subnet, security group, route table, and two Ubuntu EC2 instances.
+- Configured the two EC2 servers as Ansible managed nodes.
+- Set up an Ansible control environment using a Python virtual environment.
+- Created an Ansible inventory containing both web servers.
+- Used Ansible to verify connectivity to both servers.
+- Installed and configured Nginx on the servers using Ansible.
+- Deployed the Mini Finance static website using the Ansible playbook.
+- Verified that the website was accessible from both EC2 public IP addresses.
+- Added my full name to the deployed website as required by the assignment.
+- Verified Ansible playbook idempotency by running the playbook again and checking that no unnecessary changes were made.
+- Used Ansible verification tasks to confirm successful HTTP responses from the web servers.
+- Documented the project structure, deployment process, issues encountered, and lessons learned in the README.
 
 # Task 2 — Create the Azure Infrastructure Using Terraform
 
