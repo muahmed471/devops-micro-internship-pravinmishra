@@ -58,9 +58,7 @@ Add a screenshot from AWS or Azure showing:
 * VM status as **Running**
 * Public IP address
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment1-Screenshot1.png)
 
 ### Screenshot 2 — Ubuntu, Architecture, and HTTPS Verification
 
@@ -72,9 +70,7 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment1-Screenshot2.png)
 
 # Task 4 — Install and Configure the Azure Pipelines Agent
 
@@ -97,7 +93,8 @@ Add your screenshot here.
 
 > Ensure that the PAT is not visible.
 
----
+![screenshot](./screenshots/Assignment1-Screenshot3.png)
+![screenshot](./screenshots/Assignment1-Screenshot3a.png)
 
 # Task 5 — Verify That the Agent Is Online
 
@@ -116,9 +113,7 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment1-Screenshot4.png)
 
 # Task 6 — Create and Run a Test Pipeline
 
@@ -138,9 +133,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * Your Full Name
 * Linux verification commands
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment1-Screenshot5.png)
 
 ### Screenshot 6 — Successful Test Pipeline
 
@@ -156,16 +149,44 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 * Output from `df -h`
 * Output from `pwd`
 
-Add your screenshot here.
-
----
+![screenshot](./screenshots/Assignment1-Screenshot6.png)
+![screenshot](./screenshots/Assignment1-Screenshot6a.png)
+![screenshot](./screenshots/Assignment1-Screenshot6b.png)
+![screenshot](./screenshots/Assignment1-Screenshot6c.png)
 
 ## Completed azure-pipelines.yml
 
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
-# Paste your completed azure-pipelines.yml here
+
+trigger:
+  enabled: false
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      name: Self-Agent-Pool
+    steps:
+    - task: Bash@3
+      displayName: Verify self-hosted Ubuntu agent
+      inputs:
+        targetType: inline
+        script: |
+          echo "Submitted by: Muneer Ahmed Mohammed"
+          echo "Agent name: $(Agent.Name)"
+          echo "Machine name: $(Agent.MachineName)"
+          echo "Operating system details:"
+          uname -a
+          echo "User executing the pipeline:"
+          whoami
+          echo "Disk usage:"
+          df -h
+          echo "Current working directory:"
+          pwd
+
+
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.
@@ -176,9 +197,7 @@ Paste the contents of your completed `azure-pipelines.yml` file below.
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
-
----
+I configured an Azure DevOps self-hosted Ubuntu agent on an Azure VM and connected it to an Azure DevOps Agent Pool. I created an azure-pipelines.yml pipeline and configured it to run on the self-hosted agent. The pipeline successfully verified the agent name, VM machine name, operating system, executing user, disk usage, and working directory. The pipeline completed with a Succeeded status.
 
 # LinkedIn Requirement (If Applicable)
 
@@ -193,7 +212,9 @@ Add a screenshot of your LinkedIn post showing:
 
 Add your screenshot here.
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+**LinkedIn Post URL:** https://lnkd.in/p/dAbR5e_U
+
+![screenshot](./screenshots/Assignment1-Screenshot7.png)
 
 ---
 

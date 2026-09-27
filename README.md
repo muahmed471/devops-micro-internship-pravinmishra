@@ -154,7 +154,7 @@ Week 07 → Azure Cloud
 | 07 | Azure Cloud | ✅ Completed  | 🔄 In Progress  | https://lnkd.in/p/dNYgT8Gz | https://medium.com/@muahmed471/epic-book-deployment-on-azure-93b07a13b8d2 |
 | 08 | Terraform | 🔄 In Progress | 🔄 In Progress | https://lnkd.in/p/e3wUpsms | https://medium.com/@muahmed471/deploying-a-full-stack-application-on-aws-using-modular-terraform-b49d73e28e16 |
 | 09 | Ansible | 🔄 In Progress | 🔄 In Progress | https://lnkd.in/p/d-VYdBjx | https://medium.com/@muahmed471/building-an-aws-ansible-ad-hoc-automation-lab-with-terraform-4207e0a020f6 |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | 🔄 In Progress | 🔄 In Progress | https://lnkd.in/p/dAbR5e_U | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
