@@ -38,7 +38,7 @@ Add a screenshot of Azure Repos showing:
 
 Add your screenshot here.
 
----
+![screenshot](./screenshots/Assignment2-Screenshot1.png)
 
 # Task 2 — Provision and Configure the Target EC2 Instance
 
@@ -69,7 +69,8 @@ Add your screenshot here.
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
----
+![screenshot](./screenshots/Assignment2-Screenshot2.png)
+![screenshot](./screenshots/Assignment2-Screenshot2a.png)
 
 # Task 4 — Create the Azure DevOps YAML Pipeline
 
@@ -95,7 +96,7 @@ Add your screenshot here.
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
----
+![screenshot](./screenshots/Assignment2-Screenshot3.png)
 
 # Task 5 — Create, Authorize, and Run the Pipeline
 
@@ -117,7 +118,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 
 Add your screenshot here.
 
----
+![screenshot](./screenshots/Assignment2-Screenshot4.png)
 
 # Task 6 — Verify the Website and Automatic Trigger
 
@@ -138,23 +139,24 @@ Add a browser screenshot showing:
 
 Add your screenshot here.
 
+![screenshot](./screenshots/Assignment2-Screenshot5.png)
+![screenshot](./screenshots/Assignment2-Screenshot5a.png)
+
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
+`http://16.113.85.155`
 
 Replace the placeholder with your actual website URL:
 
 [Paste your final website URL here]
 
----
+http://16.113.85.155
 
 # Assignment Summary
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
-
----
+I completed an end-to-end CI/CD workflow for deploying an Azure Static Website to an AWS EC2 instance. The website source code was imported into Azure Repos and personalized with my details. Terraform was used to provision the AWS infrastructure, including the EC2 instance and required security group rules. Ansible was used to configure the EC2 server and Nginx deployment environment. Azure DevOps was then configured with an SSH service connection and a YAML pipeline running on a self-hosted agent. The pipeline automatically checked out the repository, copied the website files to /var/www/html on EC2, and verified the Nginx configuration and deployed website. The final pipeline execution completed successfully.
 
 # LinkedIn Requirement
 
@@ -167,11 +169,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![screenshot](./screenshots/Assignment2-Screenshot6.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+https://lnkd.in/p/dPE5D3zU
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 
